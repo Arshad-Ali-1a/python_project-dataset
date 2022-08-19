@@ -11,5 +11,6 @@
     "GRRR": {"data_entered": true, "year": 2022, "by": "Arshad-Ali-1a"},
     "JNTS": {"data_entered": false, "year":null, "by": "Arshad-Ali-1a"},
     "MLRD": {"data_entered": true, "year":2022, "by": "SrikarAppani"},
-    "JOGI": {"data_entered": true, "year":2020, "by": "SrikarAppani"}
+    "JOGI": {"data_entered": true, "year":2020, "by": "SrikarAppani"},
+    "OUCT": {"data_entered": true, "year":2019, "by": "SrikarAppani"}
 }
