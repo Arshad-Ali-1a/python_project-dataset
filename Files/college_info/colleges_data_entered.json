@@ -23,6 +23,7 @@
     "JOGI": {"data_entered": true, "year":2020, "by": "SrikarAppani"},
     "OUCT": {"data_entered": true, "year":2019, "by": "SrikarAppani"},
     "CMRK": {"data_entered": true, "year":2022, "by": "SrikarAppani"},
+    "VJIT": {"data_entered": true, "year":2022, "by": "SrikarAppani"},
     "KPRT": {"data_entered": false, "year":null, "by": "SrikarAppani"},
     "BSKR": {"data_entered": false, "year":null, "by": "SrikarAppani"},
     "BSGP": {"data_entered": false, "year":null, "by": "SrikarAppani"}
