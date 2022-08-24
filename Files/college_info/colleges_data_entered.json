@@ -25,8 +25,8 @@
     "CMRK": {"data_entered": true, "year":2022, "by": "SrikarAppani"},
     "VJIT": {"data_entered": true, "year":2022, "by": "SrikarAppani"},
     "JNTM": {"data_entered": true, "year":2020, "by": "SrikarAppani"},
+    "PALV": {"data_entered": true, "year":2022, "by": "SrikarAppani"},
     "KPRT": {"data_entered": false, "year":null, "by": "SrikarAppani"},
     "BSKR": {"data_entered": false, "year":null, "by": "SrikarAppani"},
-    "BSGP": {"data_entered": false, "year":null, "by": "SrikarAppani"},
-    "PALV": {"data_entered": true, "year":2020, "by": "SrikarAppani"}
+    "BSGP": {"data_entered": false, "year":null, "by": "SrikarAppani"}
 }
