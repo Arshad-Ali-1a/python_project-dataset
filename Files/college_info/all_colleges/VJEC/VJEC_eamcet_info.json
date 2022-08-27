@@ -1,0 +1,122 @@
+{
+   "code": "VJEC",
+   "college": "V N R VIGNANA JYOTHI INSTITUTE OF ENGG AND TECH",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "040-23042758",
+   "address": "VIGNAN JYOTHI NAGAR,BACHUPALLY VIA BACHUPALLY MANDAL,500090",
+   "place": "BACHUPALLY",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDCHAL",
+   "year": "1995",
+   "email": "postbox@vnrcjiect.a.cin",
+   "affiliated": "JNTUH",
+   "website": "https://www.vnrvjiet.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "AID",
+         "branch_name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+         "branch_intake": "60",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "AUT",
+         "branch_name": "AUTOMOBILE ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "CSB",
+         "branch_name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+         "branch_intake": "60",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "CSC",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+         "branch_intake": "60",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "120",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "240",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "180",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "CSO",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+         "branch_intake": "60",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "240",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "EIE",
+         "branch_name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "180",
+         "branch_fees": "131000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "131000"
+      }
+   ],
+   "branches": {
+      "AID": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+      "AUT": "AUTOMOBILE ENGINEERING",
+      "CIV": "CIVIL ENGINEERING",
+      "CSB": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+      "CSC": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "CSO": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "EIE": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING"
+   },
+   "total_intake": 1740,
+   "fees": 131000
+}

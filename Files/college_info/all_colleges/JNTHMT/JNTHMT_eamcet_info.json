@@ -1,0 +1,66 @@
+{
+   "code": "JNTHMT",
+   "college": "JNTUH UNIVERSITY COLLEGE OF ENGG -5 YEAR INTEGRATED MTECH SELF FINANCE",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "SF",
+   "phone": "040-23057787",
+   "address": "KUKATPALLY",
+   "place": "KUKATPALLY",
+   "hostel": "Boys",
+   "district": "MEDCHAL",
+   "year": "1965",
+   "email": "principal@jntuceh.ac.in",
+   "affiliated": "JNTUH",
+   "website": "https://",
+   "branches_details": [
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "100000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "42",
+         "branch_fees": "100000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "100000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "100000"
+      },
+      {
+         "branch_code": "MMS",
+         "branch_name": "BTECH MECHANICAL WITH MTECH MANUFACTURING SYSTEMS",
+         "branch_intake": "85",
+         "branch_fees": "100000"
+      },
+      {
+         "branch_code": "MTE",
+         "branch_name": "BTECH MECHANICAL WITH MTECH THERMAL ENGG",
+         "branch_intake": "85",
+         "branch_fees": "100000"
+      }
+   ],
+   "branches": {
+      "CIV": "CIVIL ENGINEERING",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "MMS": "BTECH MECHANICAL WITH MTECH MANUFACTURING SYSTEMS",
+      "MTE": "BTECH MECHANICAL WITH MTECH THERMAL ENGG"
+   },
+   "total_intake": 467,
+   "fees": 100000
+}

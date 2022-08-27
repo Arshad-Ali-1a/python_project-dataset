@@ -1,0 +1,66 @@
+{
+   "code": "JNTM",
+   "college": "JNTUH UNIVERSITY COLLEGE OF ENGG MANTHANI",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "AIDED",
+   "gov": "UNIV",
+   "phone": "08728-242457",
+   "address": "CENTENARY COLONY,PANNUR,MANTHANI",
+   "place": "MANTHANI",
+   "hostel": "Both Boys and Girls",
+   "district": "PEDDAPALLI",
+   "year": "2010",
+   "email": "cem@jntuh.ac.in",
+   "affiliated": "JNTUH",
+   "website": "https://www.jntuhcem.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "50000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "50000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "85",
+         "branch_fees": "100000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "50000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "50000"
+      },
+      {
+         "branch_code": "MIN",
+         "branch_name": "MINING ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "50000"
+      }
+   ],
+   "branches": {
+      "CIV": "CIVIL ENGINEERING",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "MEC": "MECHANICAL ENGINEERING",
+      "MIN": "MINING ENGINEERING"
+   },
+   "total_intake": 510,
+   "fees": 58333
+}

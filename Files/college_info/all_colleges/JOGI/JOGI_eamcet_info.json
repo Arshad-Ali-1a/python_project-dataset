@@ -1,0 +1,66 @@
+{
+   "code": "JOGI",
+   "college": "JOGINPALLY B R ENGINEERING COLLEGE",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "08413-235684",
+   "address": "YENKAPALLY,HIMAYATHNAGAR P MOINABAD MANDAL,500075",
+   "place": "YENKAPALLY",
+   "hostel": "Both Boys and Girls",
+   "district": "RANGAREDDY",
+   "year": "2002",
+   "email": "principal_jbr@yahoo.com",
+   "affiliated": "JNTUH",
+   "website": "https://www.jbrec.edu.in",
+   "branches_details": [
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "87000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "60",
+         "branch_fees": "87000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "90",
+         "branch_fees": "87000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "87000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "60",
+         "branch_fees": "87000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "87000"
+      }
+   ],
+   "branches": {
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING"
+   },
+   "total_intake": 390,
+   "fees": 87000
+}

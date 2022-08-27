@@ -1,0 +1,73 @@
+{
+   "code": "MVSR",
+   "college": "M V S R ENGINEERING COLLEGE (AUTONOMOUS)",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "8415244181",
+   "address": "NADERGUL P,501510,501510",
+   "place": "NADERGUL",
+   "hostel": "Not Available",
+   "district": "RANGAREDDY",
+   "year": "1981",
+   "email": "principal.mvsrec@gmail.com",
+   "affiliated": "OU",
+   "website": "https://www.mvsrec.edu.in",
+   "branches_details": [
+      {
+         "branch_code": "AUT",
+         "branch_name": "AUTOMOBILE ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "180",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      }
+   ],
+   "branches": {
+      "AUT": "AUTOMOBILE ENGINEERING",
+      "CIV": "CIVIL ENGINEERING",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING"
+   },
+   "total_intake": 780,
+   "fees": 125000
+}

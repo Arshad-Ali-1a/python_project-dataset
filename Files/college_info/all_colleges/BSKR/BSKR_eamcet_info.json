@@ -1,0 +1,52 @@
+{
+   "code": "BSKR",
+   "college": "BHASKAR ENGINEERING COLLEGE",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "08413-235024",
+   "address": "ADAMPUR X- ROAD,YENKAPALLY MOINABAD MANDAL,500075",
+   "place": "YENKAPALLY",
+   "hostel": "Both Boys and Girls",
+   "district": "RANGAREDDY",
+   "year": "2007",
+   "email": "principal@bec.edu.in",
+   "affiliated": "JNTUH",
+   "website": "https://www.jbgroup.org.in/bec",
+   "branches_details": [
+      {
+         "branch_code": "AID",
+         "branch_name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+         "branch_intake": "60",
+         "branch_fees": "44000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "44000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "60",
+         "branch_fees": "44000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "44000"
+      }
+   ],
+   "branches": {
+      "AID": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING"
+   },
+   "total_intake": 270,
+   "fees": 44000
+}
