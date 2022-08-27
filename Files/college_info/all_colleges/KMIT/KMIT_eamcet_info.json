@@ -1,0 +1,52 @@
+{
+   "code": "KMIT",
+   "college": "KESHAV MEMORIAL INST OF TECHNOLOGY",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "040-23261407",
+   "address": "NARAYANGUDA,HYDERABAD-29,500029",
+   "place": "NARAYANAGUDA",
+   "hostel": "Not Available",
+   "district": "HYDERABAD",
+   "year": "2007",
+   "email": "principal@kmit.in",
+   "affiliated": "JNTUH",
+   "website": "https://www.kmit.in",
+   "branches_details": [
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "420",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "180",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "120",
+         "branch_fees": "103000"
+      }
+   ],
+   "branches": {
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "INF": "INFORMATION TECHNOLOGY"
+   },
+   "total_intake": 780,
+   "fees": 103000
+}

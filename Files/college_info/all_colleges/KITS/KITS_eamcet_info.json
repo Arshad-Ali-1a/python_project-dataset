@@ -1,0 +1,94 @@
+{
+   "code": "KITS",
+   "college": "KAKATIYA INSTITUTE OF TECHNOLOGY AND SCI",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "8702564888",
+   "address": "OPP- YERRAGATTU HILLOCK,BHEEMARAM V,506015",
+   "place": "WARANGAL",
+   "hostel": "Both Boys and Girls",
+   "district": "HANAMKONDA",
+   "year": "1980",
+   "email": "principal.kitswgl@gmail.com",
+   "affiliated": "KU",
+   "website": "https://www.kitsw.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CSN",
+         "branch_name": "COMPUTER SCIENCE & ENGINEERING (NETWORKS)",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CSO",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "ECI",
+         "branch_name": "ELECTRONICS COMMUNICATION AND INSTRUMENTATION ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "120",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      }
+   ],
+   "branches": {
+      "CIV": "CIVIL ENGINEERING",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "CSN": "COMPUTER SCIENCE & ENGINEERING (NETWORKS)",
+      "CSO": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "ECI": "ELECTRONICS COMMUNICATION AND INSTRUMENTATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING"
+   },
+   "total_intake": 900,
+   "fees": 125000
+}

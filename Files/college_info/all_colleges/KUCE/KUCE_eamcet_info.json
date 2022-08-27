@@ -1,0 +1,45 @@
+{
+   "code": "KUCE",
+   "college": "K U COLLEGE OF ENGG KOTHAGUDEM",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "AIDED",
+   "gov": "UNIV",
+   "phone": "8500378531",
+   "address": "507101",
+   "place": "KOTHAGUDEM",
+   "hostel": "Both Boys and Girls",
+   "district": "BHADRADRI KOTHAGUDEM",
+   "year": "1976",
+   "email": "principal_ku@yahoo.com",
+   "affiliated": "KU",
+   "website": "https://www.kuce.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "57",
+         "branch_fees": "35000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "57",
+         "branch_fees": "35000"
+      },
+      {
+         "branch_code": "MIN",
+         "branch_name": "MINING ENGINEERING",
+         "branch_intake": "35",
+         "branch_fees": "35000"
+      }
+   ],
+   "branches": {
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "MIN": "MINING ENGINEERING"
+   },
+   "total_intake": 149,
+   "fees": 35000
+}

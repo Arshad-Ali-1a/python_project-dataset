@@ -1,0 +1,115 @@
+{
+   "code": "BVRI",
+   "college": "B V RAJU INSTITUTE OF TECHNOLOGY",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "08458-222000",
+   "address": "VISHNUPUR,NARSAPUR MANDAL,502313",
+   "place": "NARSAPUR",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDAK",
+   "year": "1997",
+   "email": "info@bvrit.ac.in",
+   "affiliated": "JNTUH",
+   "website": "https://www.bvrit.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "AID",
+         "branch_name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "BME",
+         "branch_name": "BIO-MEDICAL ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "CHE",
+         "branch_name": "CHEMICAL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "CSB",
+         "branch_name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "300",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "240",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "120",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "120000"
+      },
+      {
+         "branch_code": "PHE",
+         "branch_name": "PHARMACEUTICAL ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "120000"
+      }
+   ],
+   "branches": {
+      "AID": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+      "BME": "BIO-MEDICAL ENGINEERING",
+      "CHE": "CHEMICAL ENGINEERING",
+      "CIV": "CIVIL ENGINEERING",
+      "CSB": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING",
+      "PHE": "PHARMACEUTICAL ENGINEERING"
+   },
+   "total_intake": 1200,
+   "fees": 120000
+}

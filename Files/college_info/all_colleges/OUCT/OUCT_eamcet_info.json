@@ -1,0 +1,45 @@
+{
+   "code": "OUCT",
+   "college": "O U COLLEGE OF TECH HYDERABAD",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "AIDED",
+   "gov": "UNIV",
+   "phone": "040-27098901",
+   "address": "500007",
+   "place": "HYDERABAD",
+   "hostel": "Both Boys and Girls",
+   "district": "HYDERABAD",
+   "year": "1969",
+   "email": "principal_uct@osmania.ac.in",
+   "affiliated": "OU",
+   "website": "https://www.uctou.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "CHE",
+         "branch_name": "CHEMICAL ENGINEERING",
+         "branch_intake": "85",
+         "branch_fees": "35000"
+      },
+      {
+         "branch_code": "FDT",
+         "branch_name": "FOOD TECHNOLOGY",
+         "branch_intake": "42",
+         "branch_fees": "35000"
+      },
+      {
+         "branch_code": "TEX",
+         "branch_name": "TEXTILE TECHNOLOGY",
+         "branch_intake": "42",
+         "branch_fees": "35000"
+      }
+   ],
+   "branches": {
+      "CHE": "CHEMICAL ENGINEERING",
+      "FDT": "FOOD TECHNOLOGY",
+      "TEX": "TEXTILE TECHNOLOGY"
+   },
+   "total_intake": 169,
+   "fees": 35000
+}

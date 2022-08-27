@@ -1,0 +1,101 @@
+{
+   "code": "SNIS",
+   "college": "SRINIDHI INSTITUTE OF SCI AND TECHNOLOGY",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "08415-200595",
+   "address": "YAMNAMPET,GHATKESAR,501301",
+   "place": "GHATKESAR",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDCHAL",
+   "year": "1997",
+   "email": "info@sreenidhi.edu.in",
+   "affiliated": "JNTUH",
+   "website": "https://",
+   "branches_details": [
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "CSC",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+         "branch_intake": "60",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "60",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "300",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "60",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "CSO",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+         "branch_intake": "60",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "420",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "ECM",
+         "branch_name": "ELECTRONICS AND COMPUTER ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "240",
+         "branch_fees": "130000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "130000"
+      }
+   ],
+   "branches": {
+      "CIV": "CIVIL ENGINEERING",
+      "CSC": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "CSO": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "ECM": "ELECTRONICS AND COMPUTER ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING"
+   },
+   "total_intake": 1680,
+   "fees": 130000
+}

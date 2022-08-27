@@ -1,0 +1,108 @@
+{
+   "code": "MREC",
+   "college": "MALLAREDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "040-65864982",
+   "address": "MAISAMMAGUDA,MEDCHAL MANDAL,500100",
+   "place": "MAISAMMAGUDA",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDCHAL",
+   "year": "2002",
+   "email": "mrec.2002@gmail.com",
+   "affiliated": "JNTUH",
+   "website": "https://www.mrec.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "AIM",
+         "branch_name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CSC",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+         "branch_intake": "180",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "180",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "240",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "180",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "CSO",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      },
+      {
+         "branch_code": "MIN",
+         "branch_name": "MINING ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "103000"
+      }
+   ],
+   "branches": {
+      "AIM": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+      "CIV": "CIVIL ENGINEERING",
+      "CSC": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "CSO": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING",
+      "MIN": "MINING ENGINEERING"
+   },
+   "total_intake": 1380,
+   "fees": 103000
+}

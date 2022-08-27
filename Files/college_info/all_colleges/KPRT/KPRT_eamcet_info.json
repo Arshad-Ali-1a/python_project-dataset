@@ -1,0 +1,59 @@
+{
+   "code": "KPRT",
+   "college": "KOMMURI PRATAP REDDY INST OF TECHNOLOGY (AUTONOMOUS)",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "9542084666",
+   "address": "NEAR SANSKRUTI TOWNSHIP,ADJ.NTPC POWER GRID,GHANAPUR",
+   "place": "GHATKESAR",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDCHAL",
+   "year": "2008",
+   "email": "kpritech@gmail.com",
+   "affiliated": "JNTUH",
+   "website": "https://www.kpritech.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "70000"
+      },
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "60",
+         "branch_fees": "70000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "70000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "90",
+         "branch_fees": "70000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "70000"
+      }
+   ],
+   "branches": {
+      "CIV": "CIVIL ENGINEERING",
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING"
+   },
+   "total_intake": 420,
+   "fees": 70000
+}
