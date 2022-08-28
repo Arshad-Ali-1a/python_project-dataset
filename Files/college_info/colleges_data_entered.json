@@ -32,5 +32,6 @@
     "CVSR": {"placement_data_entered": true, "year":2021, "by": "SrikarAppani"},
     "MECS": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani"},
     "KUWL": {"placement_data_entered": false, "year":null, "by": "SrikarAppani"},
-    "NGIT": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani"}
+    "NGIT": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani"},
+    "GURU": {"placement_data_entered": true, "year":2021, "by": "SrikarAppani"}
 }
