@@ -14,7 +14,7 @@
     "hostel":false,
     "sports":["football","basketball","badminton","table_tennis","carrom","indoor_gym","volleyball","yoga"],
     "branches":[4,{"CSM":480,"CSE":120,"CSD":60,"IT":120}],
-    "fee_per_annum_in_LPA":[4,{"CSM":1.3,"CSE":1.35,"CSD":1.3,"IT":1.35}],
+    "fee_per_annum_in_LPA":1.03,
     "total_intake":780,
     "AICTE_approved":true,
     "sponsored_by":null,

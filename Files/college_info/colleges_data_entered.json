@@ -9,6 +9,7 @@
     "MREC": {"placement_data_entered": false, "year": null, "by": "MONISHCR", "eamcet_data_entered" : true},
     "KITS": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true},
     "KUCE": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true},
+    "CMRN": {"placement_data_entered": true, "year": 2021, "by": "MONISHCR"},
     "OUCE": {"placement_data_entered": true, "year": 2021, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true},
     "CBIT": {"placement_data_entered": true, "year": 2022, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true},
     "JNTH": {"placement_data_entered": true, "year": 2020, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true},
