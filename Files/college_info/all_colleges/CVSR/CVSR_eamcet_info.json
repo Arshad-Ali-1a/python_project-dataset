@@ -1,0 +1,80 @@
+{
+   "code": "CVSR",
+   "college": "ANURAG UNIVERSITY (FORMERLY ANURAG GRP OF INSTNS- CVSR COLL OF ENGG)",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "8181057057",
+   "address": "VENKATAPUR,GHATKESAR,500088",
+   "place": "GHATKESAR",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDCHAL",
+   "year": "2002",
+   "email": "info@anurag.edu.in",
+   "affiliated": "ANURAG UNIVERSITY",
+   "website": "https://www.anurag.edu.in",
+   "branches_details": [
+      {
+         "branch_code": "AI",
+         "branch_name": "ARTIFICIAL INTELLIGENCE",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CHE",
+         "branch_name": "CHEMICAL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "240",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "240",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "180",
+         "branch_fees": "125000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "125000"
+      }
+   ],
+   "branches": {
+      "AI": "ARTIFICIAL INTELLIGENCE",
+      "CHE": "CHEMICAL ENGINEERING",
+      "CIV": "CIVIL ENGINEERING",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING"
+   },
+   "total_intake": 1200,
+   "fees": 125000
+}
