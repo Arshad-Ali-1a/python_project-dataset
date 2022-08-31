@@ -1,0 +1,66 @@
+{
+   "code": "CMRN",
+   "college": "CMR ENGG COLLEGE (AUTONOMOUS)",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "9248727229",
+   "address": "KANDLAKOYA,MEDCHAL,501401",
+   "place": "KANDLAKOYA",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDCHAL",
+   "year": "2010",
+   "email": "principal.cmrec@gmail.com",
+   "affiliated": "JNTUH",
+   "website": "https://www.cmrec.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "CSC",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+         "branch_intake": "60",
+         "branch_fees": "75000"
+      },
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "120",
+         "branch_fees": "75000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "240",
+         "branch_fees": "75000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "180",
+         "branch_fees": "75000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "75000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "120",
+         "branch_fees": "75000"
+      }
+   ],
+   "branches": {
+      "CSC": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY"
+   },
+   "total_intake": 840,
+   "fees": 75000
+}

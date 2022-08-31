@@ -1,0 +1,38 @@
+{
+   "code": "NGIT",
+   "college": "NEIL GOGTE INST OF TECHNOLOGY",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "",
+   "address": "Sy NO 35 KACHIVANI SINGARAM (V) UPPAL",
+   "place": "KACHIVANI SINGARAM",
+   "hostel": "Not Available",
+   "district": "MEDCHAL",
+   "year": "2018",
+   "email": "",
+   "affiliated": "OU",
+   "website": "https://",
+   "branches_details": [
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "70000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "120",
+         "branch_fees": "70000"
+      }
+   ],
+   "branches": {
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)"
+   },
+   "total_intake": 300,
+   "fees": 70000
+}
