@@ -24,7 +24,7 @@
     "JOGI": {"placement_data_entered": true, "year":2020, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":[]},
     "OUCT": {"placement_data_entered": true, "year":2019, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":["SALARY"]},
     "CMRK": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":[]},
-    "VJIT": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true},
+    "VJIT": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":[]},
     "JNTM": {"placement_data_entered": true, "year":2020, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":[]},
     "PALV": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":["SALARY"]},
     "KPRT": {"placement_data_entered": false, "year":null, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols": ["COMPANY","SALARY","OFFERS"]},
