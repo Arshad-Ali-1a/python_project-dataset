@@ -30,7 +30,7 @@
     "KPRT": {"placement_data_entered": false, "year":null, "by": "SrikarAppani", "eamcet_data_entered" : true},
     "BSKR": {"placement_data_entered": false, "year":null, "by": "SrikarAppani", "eamcet_data_entered" : true},
     "BSGP": {"placement_data_entered": false, "year":null, "by": "SrikarAppani", "eamcet_data_entered" : false},
-    "CVSR": {"placement_data_entered": true, "year":2021, "by": "SrikarAppani", "eamcet_data_entered" : true},
+    "CVSR": {"placement_data_entered": true, "year":2021, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":[]},
     "MECS": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true},
     "KUWL": {"placement_data_entered": false, "year":null, "by": "SrikarAppani", "eamcet_data_entered" : true},
     "NGIT": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true},
