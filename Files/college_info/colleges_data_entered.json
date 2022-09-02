@@ -6,7 +6,6 @@
     "MVSR": {"placement_data_entered": true, "year": 2021, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols":[]},
     "SNIS": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols":[]},
     "JNKR": {"placement_data_entered": false, "year": null, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols": ["COMPANY","SALARY","OFFERS"]},
-    "MREC": {"placement_data_entered": false, "year": null, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols": ["COMPANY","SALARY","OFFERS"]},
     "KITS": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols":[]},
     "KUCE": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols":[]},
     "CMRN": {"placement_data_entered": true, "year": 2021, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols":[]},
