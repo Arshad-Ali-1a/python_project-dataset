@@ -15,6 +15,7 @@
     "MRTN": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "empty_cols":[]},
     "KMEC": {"placement_data_entered": false, "year": null, "by": "MONISHCR", "empty_cols":["COMPANY","SALARY","OFFERS"]},
     "JBIT": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "empty_cols":[]},
+    "INDU": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "empty_cols":["SALARY"]},
     "OUCE": {"placement_data_entered": true, "year": 2021, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols": []},
     "CBIT": {"placement_data_entered": true, "year": 2022, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols": []},
     "JNTH": {"placement_data_entered": true, "year": 2020, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols": []},
