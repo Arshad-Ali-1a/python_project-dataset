@@ -43,7 +43,7 @@
     "MECS": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":["SALARY"]},
     "KUWL": {"placement_data_entered": false, "year":null, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols": ["COMPANY","SALARY","OFFERS"]},
     "NGIT": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":[]},
-    "GURU": {"placement_data_entered": true, "year":2021, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":["SALARY"]},
+    "GNIT": {"placement_data_entered": true, "year":2021, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":["SALARY"]},
     "MLID": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols":[]},
     "JNTR": {"placement_data_entered": false, "year":null, "by": "SrikarAppani", "eamcet_data_entered" : true, "empty_cols": ["COMPANY","SALARY","OFFERS"]},
     "GCTC": {"placement_data_entered": true, "year":2022, "by": "SrikarAppani", "empty_cols":[]},
