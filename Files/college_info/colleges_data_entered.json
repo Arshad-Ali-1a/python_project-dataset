@@ -18,6 +18,7 @@
     "INDU": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "empty_cols":["SALARY"]},
     "MLRS": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "empty_cols":[]},
     "CMRG": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "empty_cols":[]},
+    "VGNT": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "empty_cols":[]},
     "OUCE": {"placement_data_entered": true, "year": 2021, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols": []},
     "CBIT": {"placement_data_entered": true, "year": 2022, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols": []},
     "JNTH": {"placement_data_entered": true, "year": 2020, "by": "Arshad-Ali-1a", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols": []},
