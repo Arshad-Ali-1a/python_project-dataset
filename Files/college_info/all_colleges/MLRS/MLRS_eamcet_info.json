@@ -1,0 +1,94 @@
+{
+   "code": "MLRS",
+   "college": "MARRI LAXMAN REDDY INST OF TECHNOLOGY AND MANAGEMENT (AUTONOMOUS)",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "040-29556182",
+   "address": "DUNDIGAL,QUTBULLAPUR M,500043",
+   "place": "DUNDIGAL",
+   "hostel": "Both Boys and Girls",
+   "district": "MEDCHAL",
+   "year": "2009",
+   "email": "principal@mlritm.ac.in",
+   "affiliated": "JNTUH",
+   "website": "https://www.mlritm.ac.in",
+   "branches_details": [
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "CSC",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+         "branch_intake": "60",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "CSD",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+         "branch_intake": "180",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "CSI",
+         "branch_name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+         "branch_intake": "60",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "180",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "60",
+         "branch_fees": "80000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "80000"
+      }
+   ],
+   "branches": {
+      "CIV": "CIVIL ENGINEERING",
+      "CSC": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+      "CSD": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSI": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING"
+   },
+   "total_intake": 990,
+   "fees": 80000
+}

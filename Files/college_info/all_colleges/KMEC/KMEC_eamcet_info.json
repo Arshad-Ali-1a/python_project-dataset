@@ -1,0 +1,38 @@
+{
+   "code": "KMEC",
+   "college": "KESHAV MEMORIAL ENGINEERING COLLEGE",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "",
+   "address": "SY.NO. 35,,KACHWANISINGARAM (V) , GHATKESAR (M)",
+   "place": "KACHWANISINGARAM",
+   "hostel": "Not Available",
+   "district": "MEDCHAL",
+   "year": "2021",
+   "email": "",
+   "affiliated": "OU",
+   "website": "https://",
+   "branches_details": [
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "180",
+         "branch_fees": "35000"
+      },
+      {
+         "branch_code": "CSM",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+         "branch_intake": "120",
+         "branch_fees": "35000"
+      }
+   ],
+   "branches": {
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "CSM": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)"
+   },
+   "total_intake": 300,
+   "fees": 35000
+}

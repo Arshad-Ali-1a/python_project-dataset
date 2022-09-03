@@ -1,0 +1,94 @@
+{
+   "code": "JBIT",
+   "college": "J B INSTITUTE OF ENGG AND TECHNOLOGY (AUTONOMOUS)",
+   "coed": "COED",
+   "minority": "NA",
+   "region": "OU",
+   "aided": "UNAIDED",
+   "gov": "PVT",
+   "phone": "08413-235755",
+   "address": "YENKAPALLY,MOINABAD MANDAL,500075",
+   "place": "YENKAPALLY",
+   "hostel": "Both Boys and Girls",
+   "district": "RANGAREDDY",
+   "year": "1998",
+   "email": "principalbjbiet@gmail.com",
+   "affiliated": "JNTUH",
+   "website": "https://",
+   "branches_details": [
+      {
+         "branch_code": "AID",
+         "branch_name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+         "branch_intake": "60",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "AIM",
+         "branch_name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+         "branch_intake": "120",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "CIV",
+         "branch_name": "CIVIL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "CSE",
+         "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "ECE",
+         "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+         "branch_intake": "120",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "ECM",
+         "branch_name": "ELECTRONICS AND COMPUTER ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "EEE",
+         "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "INF",
+         "branch_name": "INFORMATION TECHNOLOGY",
+         "branch_intake": "60",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "MEC",
+         "branch_name": "MECHANICAL ENGINEERING",
+         "branch_intake": "60",
+         "branch_fees": "96000"
+      },
+      {
+         "branch_code": "MIN",
+         "branch_name": "MINING ENGINEERING",
+         "branch_intake": "30",
+         "branch_fees": "96000"
+      }
+   ],
+   "branches": {
+      "AID": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+      "AIM": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+      "CIV": "CIVIL ENGINEERING",
+      "CSE": "COMPUTER SCIENCE AND ENGINEERING",
+      "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "ECM": "ELECTRONICS AND COMPUTER ENGINEERING",
+      "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "INF": "INFORMATION TECHNOLOGY",
+      "MEC": "MECHANICAL ENGINEERING",
+      "MIN": "MINING ENGINEERING"
+   },
+   "total_intake": 750,
+   "fees": 96000
+}
