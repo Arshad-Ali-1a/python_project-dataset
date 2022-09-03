@@ -12,7 +12,7 @@
     "CMRM": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols":[]},
     "SRHP": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols":[]},
     "VBIT": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols":["SALARY"]},
-    "MRTN": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "empty_cols":[]},
+    "MRTN": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols":[]},
     "KMEC": {"placement_data_entered": false, "year": null, "by": "MONISHCR", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols":["COMPANY","SALARY","OFFERS"]},
     "JBIT": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols":[]},
     "INDU": {"placement_data_entered": true, "year": 2022, "by": "MONISHCR", "eamcet_data_entered" : true, "placement_analysis_entered": true, "empty_cols":["SALARY"]},
