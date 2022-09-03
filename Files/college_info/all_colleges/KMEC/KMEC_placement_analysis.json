@@ -1,0 +1,42 @@
+{
+   "closing_ranks_2021": {
+      "CSE": {
+         "OC BOYS": 21557,
+         "OC GIRLS": 22017,
+         "BC_A BOYS": 69628,
+         "BC_A GIRLS": 99132,
+         "BC_B BOYS": 31147,
+         "BC_B GIRLS": 32324,
+         "BC_C BOYS": 44046,
+         "BC_C GIRLS": 44046,
+         "BC_D BOYS": 33816,
+         "BC_D GIRLS": 36844,
+         "BC_E BOYS": 60713,
+         "BC_E GIRLS": 86924,
+         "SC BOYS": 115914,
+         "SC GIRLS": 115914,
+         "ST BOYS": 66441,
+         "ST GIRLS": 95934
+      },
+      "CSM": {
+         "OC BOYS": 27493,
+         "OC GIRLS": 29279,
+         "BC_A BOYS": 95341,
+         "BC_A GIRLS": 95341,
+         "BC_B BOYS": 40732,
+         "BC_B GIRLS": 45702,
+         "BC_C BOYS": 27493,
+         "BC_C GIRLS": 40449,
+         "BC_D BOYS": 40437,
+         "BC_D GIRLS": 40437,
+         "BC_E BOYS": 83215,
+         "BC_E GIRLS": 83215,
+         "SC BOYS": 120619,
+         "SC GIRLS": 121368,
+         "ST BOYS": 105260,
+         "ST GIRLS": 109762
+      }
+   },
+   "closing_ranks_2020": null,
+   "closing_ranks_2019": null
+}
