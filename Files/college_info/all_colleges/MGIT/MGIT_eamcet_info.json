@@ -97,5 +97,7 @@
       "MMT": "METALLURGY AND MATERIAL ENGINEERING"
    },
    "total_intake": 900,
-   "fees": 120000
+   "fees": 120000,
+   "coordinates": [17.391910831862432, 78.32191749290116]
+
 }

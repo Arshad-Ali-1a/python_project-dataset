@@ -104,5 +104,6 @@
       "MIN": "MINING ENGINEERING"
    },
    "total_intake": 1380,
-   "fees": 103000
+   "fees": 103000,
+   "coordinates": [17.558758195892565, 78.45129042849989]
 }

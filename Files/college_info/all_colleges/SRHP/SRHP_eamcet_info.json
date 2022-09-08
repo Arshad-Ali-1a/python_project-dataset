@@ -55,5 +55,6 @@
       "MEC": "MECHANICAL ENGINEERING"
    },
    "total_intake": 720,
-   "fees": 115000
+   "fees": 115000,
+   "coordinates": [18.140176304273936, 79.46362042801107]
 }

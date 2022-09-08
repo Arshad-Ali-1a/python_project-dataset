@@ -62,5 +62,6 @@
       "EEE": "ELECTRICAL AND ELECTRONICS ENGINEERING"
    },
    "total_intake": 420,
-   "fees": 50000
+   "fees": 50000,
+   "coordinates": [17.350591213232477, 78.6098423693183]
 }
