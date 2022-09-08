@@ -55,5 +55,6 @@
       "ECE": "ELECTRONICS AND COMMUNICATION ENGINEERING"
    },
    "total_intake": 840,
-   "fees": 90000
+   "fees": 90000,
+   "coordinates": [17.607154845720373, 78.48429395223621]
 }

@@ -76,5 +76,6 @@
       "MET": "METALLURGICAL ENGINEERING"
    },
    "total_intake": 680,
-   "fees": 56250
+   "fees": 56250,
+   "coordinates": [17.493963828128685, 78.39087787060875]
 }

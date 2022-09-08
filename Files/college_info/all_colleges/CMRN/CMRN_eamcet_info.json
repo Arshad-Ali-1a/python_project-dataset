@@ -62,5 +62,6 @@
       "INF": "INFORMATION TECHNOLOGY"
    },
    "total_intake": 840,
-   "fees": 75000
+   "fees": 75000,
+   "coordinates": [17.60216446265625, 78.48745462401648]
 }

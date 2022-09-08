@@ -111,5 +111,6 @@
       "PHE": "PHARMACEUTICAL ENGINEERING"
    },
    "total_intake": 1200,
-   "fees": 120000
+   "fees": 120000,
+   "coordinates": [17.723734327340665, 78.26733145657138]
 }

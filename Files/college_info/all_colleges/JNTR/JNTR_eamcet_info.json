@@ -62,5 +62,6 @@
       "TEX": "TEXTILE TECHNOLOGY"
    },
    "total_intake": 510,
-   "fees": 50000
+   "fees": 50000,
+   "coordinates": [18.4303963279689, 78.83408756229714]
 }
