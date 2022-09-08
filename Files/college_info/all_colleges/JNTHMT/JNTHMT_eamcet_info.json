@@ -62,5 +62,6 @@
       "MTE": "BTECH MECHANICAL WITH MTECH THERMAL ENGG"
    },
    "total_intake": 467,
-   "fees": 100000
+   "fees": 100000,
+   "coordinates": [17.493963828128685, 78.39087787060875]
 }
