@@ -1,0 +1,239 @@
+{
+   "CSE": {
+      "branch_name": "COMPUTER SCIENCE AND ENGINEERING",
+      "branch_category": "COMPUTER"
+   },
+   "CSM": {
+      "branch_name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "branch_category": "COMPUTER"
+   },
+   "CSC": {
+      "branch_name": "COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)",
+      "branch_category": "COMPUTER"
+   },
+   "CSD": {
+      "branch_name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "branch_category": "COMPUTER"
+   },
+   "CIC": {
+      "branch_name": "CSE (IoT AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)",
+      "branch_category": "COMPUTER"
+   },
+   "INF": {
+      "branch_name": "INFORMATION TECHNOLOGY",
+      "branch_category": "COMPUTER"
+   },
+   "CSO": {
+      "branch_name": "COMPUTER SCIENCE AND ENGINEERING (IOT)",
+      "branch_category": "COMPUTER"
+   },
+   "CSN": {
+      "branch_name": "COMPUTER SCIENCE & ENGINEERING (NETWORKS)",
+      "branch_category": "COMPUTER"
+   },
+
+
+
+
+   "CSB": {
+      "branch_name": "COMPUTER SCIENCE AND BUSINESS SYSTEM",
+      "branch_category": "COMPUTER_2"
+   },
+   "CSI": {
+      "branch_name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "branch_category": "COMPUTER_2"
+   },
+   "CST": {
+      "branch_name": "COMPUTER SCIENCE AND TECHNOLOGY",
+      "branch_category": "COMPUTER_2"
+   },
+   "AI": {
+      "branch_name": "ARTIFICIAL INTELLIGENCE",
+      "branch_category": "COMPUTER_2"
+   },
+   "AIM": {
+      "branch_name": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+      "branch_category": "COMPUTER_2"
+   },
+   "AID": {
+      "branch_name": "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+      "branch_category": "COMPUTER_2"
+   },
+   "CSG": {
+      "branch_name": "COMPUTER SCIENCE & DESIGN",
+      "branch_category": "COMPUTER_2"
+   },
+   "CME": {
+      "branch_name": "COMPUTER ENGINEERING",
+      "branch_category": "COMPUTER_2"
+   },
+   "CSW": {
+      "branch_name": "COMPUTER ENGINEERING(SOFTWARE ENGINEERING)",
+      "branch_category": "COMPUTER_2"
+   },
+   "ITE": {
+      "branch_name": "INFORMATION TECHNOLOGY AND ENGINEERING",
+      "branch_category": "COMPUTER_2"
+   },
+
+   
+   
+   "ECE": {
+      "branch_name": "ELECTRONICS AND COMMUNICATION ENGINEERING",
+      "branch_category": "ELECTRICAL"
+   },
+   "EEE": {
+      "branch_name": "ELECTRICAL AND ELECTRONICS ENGINEERING",
+      "branch_category": "ELECTRICAL"
+   },
+
+
+
+   
+   
+   
+   "EIE": {
+      "branch_name": "ELECTRONICS AND INSTRUMENTATION ENGINEERING",
+      "branch_category": "ELECTRICAL"
+   },
+   
+
+   
+   "ECM": {
+      "branch_name": "ELECTRONICS AND COMPUTER ENGINEERING",
+      "branch_category": "ELECTRICAL_2"
+   },
+   "ECI": {
+      "branch_name": "ELECTRONICS COMMUNICATION AND INSTRUMENTATION ENGINEERING",
+      "branch_category": "ELECTRICAL_2"
+   },
+   "ETM": {
+      "branch_name": "ELECTRONICS AND TELEMATICS",
+      "branch_category": "ELECTRICAL_2"
+   },
+   
+   
+   
+   "DTD": {
+      "branch_name": "DIGITAL TECHNIQUES FOR DESIGN AND PLANNING",
+      "branch_category": "COMPUTER_3"
+   },
+
+
+
+   "MEC": {
+      "branch_name": "MECHANICAL ENGINEERING",
+      "branch_category": "MECHANICAL"
+   },
+   "ANE": {
+      "branch_name": "AERONAUTICAL ENGINEERING",
+      "branch_category": "MECHANICAL"
+   },
+   "MCT": {
+      "branch_name": "MECHANICAL (MECHTRONICS) ENGINEERING",
+      "branch_category": "MECHANICAL"
+   },
+
+
+
+   "ARB": {
+      "branch_name": "AUTOMATION AND ROBOTICS",
+      "branch_category": "MECHANICAL_2"
+   },
+   "AUT": {
+      "branch_name": "AUTOMOBILE ENGINEERING",
+      "branch_category": "MECHANICAL_2"
+   },
+
+
+
+   "CIV": {
+      "branch_name": "CIVIL ENGINEERING",
+      "branch_category": "MECHANICAL"
+   },
+
+
+
+   "BIO": {
+      "branch_name": "BIO-TECHNOLOGY",
+      "branch_category": "CHEMICAL"
+   },
+   "CHE": {
+      "branch_name": "CHEMICAL ENGINEERING",
+      "branch_category": "CHEMICAL"
+   },
+   "BME": {
+      "branch_name": "BIO-MEDICAL ENGINEERING",
+      "branch_category": "CHEMICAL"
+   },
+
+   
+
+   "IPE": {
+      "branch_name": "INDUSTRIAL PRODUCTION ENGINEERING",
+      "branch_category": "MECHANICAL_2"
+   },
+   "MET": {
+      "branch_name": "METALLURGICAL ENGINEERING",
+      "branch_category": "MECHANICAL_2"
+   },
+   "MMT": {
+      "branch_name": "METALLURGY AND MATERIAL ENGINEERING",
+      "branch_category": "MECHANICAL_2"
+   },
+   "MMS": {
+      "branch_name": "BTECH MECHANICAL WITH MTECH MANUFACTURING SYSTEMS",
+      "branch_category": "MECHANICAL_2"
+   },
+   "MTE": {
+      "branch_name": "BTECH MECHANICAL WITH MTECH THERMAL ENGG",
+      "branch_category": "MECHANICAL_2"
+   },
+   "PLG": {
+      "branch_name": "PLANNING",
+      "branch_category": "MECHANICAL_2"
+   },
+
+
+
+   
+   "AGR": {
+      "branch_name": "AGRICULTURAL ENGINEERING",
+      "branch_category": "CHEMICAL"
+   },
+   "DRG": {
+      "branch_name": "DAIRYING",
+      "branch_category": "CHEMICAL"
+   },
+   "FDT": {
+      "branch_name": "FOOD TECHNOLOGY",
+      "branch_category": "CHEMICAL"
+   },
+   "TEX": {
+      "branch_name": "TEXTILE TECHNOLOGY",
+      "branch_category": "CHEMICAL"
+   },
+   "FSP": {
+      "branch_name": "FACILITIES AND SERVICES PLANNING",
+      "branch_category": "CHEMICAL"
+   },
+   "PHE": {
+      "branch_name": "PHARMACEUTICAL ENGINEERING",
+      "branch_category": "CHEMICAL"
+   },
+   "MIN": {
+      "branch_name": "MINING ENGINEERING",
+      "branch_category": "CHEMICAL"
+   },
+
+
+
+   "PHM": {
+      "branch_name": "B. PHARMACY (M.P.C. STREAM)",
+      "branch_category": "PHARMACY"
+   },
+   "PHD": {
+      "branch_name": "PHARM - D (M.P.C. STREAM)",
+      "branch_category": "PHARMACY"
+   }
+}
