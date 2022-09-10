@@ -660,7 +660,6 @@ class College():
                             size=5, ha="left" if i % 2 else "right", va="top" if i % 2 else "bottom")
 
         pyplot.savefig("graph.png")
-        pyplot.show()
 
 
 #
