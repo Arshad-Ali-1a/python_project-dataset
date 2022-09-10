@@ -71,7 +71,7 @@ class CollegeBranch(Branch):
         return f"CollegeBranch({self.code},{self.college})"
 
     def __str__(self):
-        return self.code
+        return f"{self.code}:{self.college}"
 
 
 # TODO add __str__ to all the classes... in __repr__, add a proper representation to create a class like that again.
@@ -277,23 +277,28 @@ class College():
     # functions..
 
     @staticmethod
-    def sort_colleges(key="all"):
+    def sort_colleges(key: str = "all", colleges: tuple | list = None):
 
-        def college_sort(college):
+        # TODO fix this function, so that in any key the best college is on top...
+        if colleges == None:
+            colleges = College.instances.values()
+        else:
+            assert all(map(lambda x: x.code in College.instances, colleges)
+                       ), f"Invalid parameter for colleges:{colleges}"
+
+        def college_sort(college):  # TODO this function is bad, fix it.
             required_placement = (
                 college.salary_mean)*(college.total_offers) if college.salary_mean else 0
             intake = college.total_intake
 
             # can try to remove intake if branch in last rank in same year as placement.
-            print(college.code, end="--")
             for branch in college.branches:
                 if not branch.clsrnk21:
                     intake -= int(branch.intake)
-                    print(branch.code, end=" ")
                 elif branch.category in ("ELECTRICAL_2", "MECHANICAL", "MECHANICAL_2", "CHEMICAL", "PHARMACY"):
                     intake -= round(int(branch.intake)*1/2)
 
-            print(f"--{intake}")
+            # print(f"--{intake}")
             return required_placement/college.total_intake
             # return college.highest_salary if college.highest_salary else 0
 
@@ -308,8 +313,28 @@ class College():
                 # as spelling of companies_visited is compaies_visited in all placement_analysis.
 
             else:
-                raise NameError(
+                raise AttributeError(
                     "argument given to sort_colleges() is invalid.")
+
+    @classmethod
+    def sort_branches(cls, college_sort_key: str = "all", colleges: tuple | list = None):
+
+        # TODO make this function sort branches properly, i.e. such that bad branches of good college come after or in between good bracches of next college.
+        # no need for checking as, sort_colleges will check.
+
+        colleges = cls.sort_colleges(college_sort_key, colleges)
+        sorted_branches = []
+        score = []
+        # sorted_branches.extend([branch for branch in college.branches])
+        for college in colleges:
+            for branch in college.branches:
+                sorted_branches.append(branch)
+                score.append(branch.position*0.5 +
+                             (colleges.index(cls.instances[branch.college]))*2)
+
+        sorted_branches = sorted(sorted_branches, key=lambda x: (
+            score[sorted_branches.index(x)], x.position))
+        return sorted_branches
 
     # probility of getting into college.
 
@@ -605,13 +630,8 @@ class College():
     @classmethod
     def graph(cls, param: str = "closing_rank", colleges: tuple | list = None):
 
-        if colleges == None:
-            colleges = cls.instances.values()
-        assert all(map(lambda x: x.code in cls.instances, colleges)
-                   ), f"Invalid parameter for colleges:{colleges}"
-        assert param in cls.SORTING_KEYS, f"Invalid parameter for param:{param}"
-
-        colleges = cls.sort_colleges(param)
+        # no need of parameter checking, as College.sort_colleges will do.
+        colleges = cls.sort_colleges(param, colleges)
 
         pltx = []
         plty = []
