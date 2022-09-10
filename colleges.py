@@ -279,7 +279,6 @@ class College():
     @staticmethod
     def sort_colleges(key: str = "all", colleges: tuple | list = None):
 
-        # TODO fix this function, so that in any key the best college is on top...
         if colleges == None:
             colleges = College.instances.values()
         else:
@@ -309,7 +308,7 @@ class College():
             def college_sort(college): ...
 
             if key in College.SORTING_KEYS:
-                return(sorted(College.instances.values(), key=lambda x: a if (a := getattr(x, key)) != None else 0, reverse=True))
+                return(sorted(College.instances.values(), key=lambda x: a if (a := getattr(x, key)) != None else 0, reverse=True if key not in ("year", "closing_rank", "distance") else False))
                 # as spelling of companies_visited is compaies_visited in all placement_analysis.
 
             else:
@@ -646,9 +645,20 @@ class College():
         pyplot.xticks(rotation=90, fontsize=7, color="black")
         pyplot.yticks(color="black", fontsize=6)
         pyplot.ylabel(f"{param}", labelpad=7)
-        for i, value in enumerate(plty):
-            pyplot.text(i, plty[i], round(plty[i]),
-                        size=5, ha="right" if i % 2 else "left", va="top" if i % 2 else "bottom")
+
+        # increasing and decreasing...so that we can put text in graph points correctly, so they do not overlap.
+        increasing = True if param in (
+            "year", "closing_rank", "distance") else False
+
+        if not increasing:
+            for i, value in enumerate(plty):
+                pyplot.text(i, plty[i], round(plty[i]),
+                            size=5, ha="right" if i % 2 else "left", va="top" if i % 2 else "bottom")
+        else:
+            for i, value in enumerate(plty):
+                pyplot.text(i, plty[i], round(plty[i]),
+                            size=5, ha="left" if i % 2 else "right", va="top" if i % 2 else "bottom")
+
         pyplot.savefig("graph.png")
         pyplot.show()
 
