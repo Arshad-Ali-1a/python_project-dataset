@@ -88,11 +88,12 @@ class College():
         "salary_median",
         "total_offers",
         "companies_visited",
-        "closing_rank",
         "year",
         "total_intake",
         "fees",
         "probability",
+        "closing_rank",
+        "distance",
     )
     CATEGORIES = (
         "OC",
@@ -182,6 +183,7 @@ class College():
             "total_intake": self.total_intake,
             "coordinates": self.coordinates,
             "branches": self.branches,
+            "closing_rank": self.closing_rank,
         }
 
     @eamcet_info.setter
@@ -220,6 +222,10 @@ class College():
         self.total_intake = eamcet_d["total_intake"]
         self.coordinates = eamcet_d["coordinates"]
         self.branches = other
+
+        t = [branch for branch in self.branches if branch.clsrnk21 != None]
+        self.closing_rank = min(
+            t, key=lambda x: x.clsrnk21["OC BOYS"]).clsrnk21["OC BOYS"]
 
     @property
     def branches(self):
@@ -262,12 +268,13 @@ class College():
         # yes, I know that spelling of companies is wrong.
         self.companies_visited = other.get("compaies_visited", None)
         self.placement_data_year = other.get("placement_data_year", None)
-        self.placement_percent = tf * 100 / \
-            self.total_intake if (tf := (self.total_offers)) else None
+        self.placement_percent = round(
+            (tf * 100 / (self.total_intake)), 2) if (tf := (self.total_offers)) else None
 
         # TODO add closing rank to sorting options.
 
     # functions..
+
     @staticmethod
     def sort_colleges(key="all"):
 
@@ -295,14 +302,7 @@ class College():
         else:  # len(key)==0
             def college_sort(college): ...
 
-            if key == "closing_ranks":
-                def clsrnk(college):
-                    t = [branch for branch in college.branches if branch.clsrnk21 != None]
-                    return min(t, key=lambda x: x.clsrnk21["OC BOYS"]).clsrnk21["OC BOYS"]
-
-                return(sorted(College.instances.values(), key=clsrnk))
-
-            elif key in College.SORTING_KEYS:
+            if key in College.SORTING_KEYS:
                 return(sorted(College.instances.values(), key=lambda x: a if (a := getattr(x, key)) != None else 0, reverse=True))
                 # as spelling of companies_visited is compaies_visited in all placement_analysis.
 
@@ -514,7 +514,7 @@ class College():
             if salary_mean_greater != None:
                 if salary_mean_greater >= keys["salary_mean_greater"][0] and salary_mean_greater <= keys["salary_mean_greater"][1]:
                     if (college.salary_mean == None):
-                        flag == False
+                        flag = False
                     elif not(college.salary_mean >= salary_mean_greater):
                         flag = False
                 else:
@@ -524,7 +524,7 @@ class College():
             if salary_median_greater != None:
                 if salary_median_greater >= keys["salary_median_greater"][0] and salary_median_greater <= keys["salary_median_greater"][1]:
                     if (college.salary_median == None):
-                        flag == False
+                        flag = False
                     elif not(college.salary_median >= salary_median_greater):
                         flag = False
                 else:
@@ -534,7 +534,7 @@ class College():
             if salary_mode_greater != None:
                 if salary_mode_greater >= keys["salary_mode_greater"][0] and salary_mode_greater <= keys["salary_mode_greater"][1]:
                     if (college.salary_mode == None):
-                        flag == False
+                        flag = False
                     elif not(college.salary_mode >= salary_mode_greater):
                         flag = False
                 else:
@@ -544,7 +544,7 @@ class College():
             if highest_salary_greater != None:
                 if highest_salary_greater >= keys["highest_salary_greater"][0] and highest_salary_greater <= keys["highest_salary_greater"][1]:
                     if (college.highest_salary == None):
-                        flag == False
+                        flag = False
                     elif not(college.highest_salary >= highest_salary_greater):
                         flag = False
                 else:
@@ -554,7 +554,7 @@ class College():
             if total_offers_greater != None:
                 if total_offers_greater >= keys["total_offers_greater"][0] and total_offers_greater <= keys["total_offers_greater"][1]:
                     if (college.total_intake == None):
-                        flag == False
+                        flag = False
                     elif not(college.total_offers >= total_offers_greater):
                         flag = False
                 else:
@@ -564,7 +564,7 @@ class College():
             if companies_visited_greater != None:
                 if companies_visited_greater >= keys["companies_visited_greater"][0] and companies_visited_greater <= keys["companies_visited_greater"][1]:
                     if (college.companies_visited == None):
-                        flag == False
+                        flag = False
                     elif not(int(college.companies_visited) >= companies_visited_greater):
                         flag = False
                 else:
