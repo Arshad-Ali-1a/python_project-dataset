@@ -1,5 +1,6 @@
 from json import load, dump
 from requests import get
+from matplotlib import pyplot
 
 # TODO add an encryption and decryption method to key.
 # TODO add a function to display all the branches sorted properly in sorted colleges.
@@ -214,7 +215,7 @@ class College():
             self.hostel = None
 
         self.district = eamcet_d["district"]
-        self.year = eamcet_d["year"]
+        self.year = int(y) if (y := (eamcet_d["year"])) != None else None
         self.email = eamcet_d["email"]
         self.affiliated = eamcet_d["affiliated"]
         self.website = eamcet_d["website"]
@@ -320,7 +321,7 @@ class College():
             raise AttributeError("call College.chance_college() first.")
 
     @classmethod
-    def chance_college(cls, rank: int, gender: str, category: str, branch_categories: tuple | list, precision: int = 5):
+    def chance_college(cls, rank: int, gender: str, category: str, branch_categories: tuple | list = Branch.all_branches_category.keys(), precision: int = 5):
         '''
         calculates the probability (in percent) of getting into all the colleges.
         '''
@@ -600,6 +601,37 @@ class College():
             flag = True
 
         return filtered_colleges
+
+    @classmethod
+    def graph(cls, param: str = "closing_rank", colleges: tuple | list = None):
+
+        if colleges == None:
+            colleges = cls.instances.values()
+        assert all(map(lambda x: x.code in cls.instances, colleges)
+                   ), f"Invalid parameter for colleges:{colleges}"
+        assert param in cls.SORTING_KEYS, f"Invalid parameter for param:{param}"
+
+        colleges = cls.sort_colleges(param)
+
+        pltx = []
+        plty = []
+
+        for college in colleges:
+            pltx.append(college.code)
+            plty.append(cp if (cp := (getattr(college, param))) != None else 0)
+
+        pyplot.figure(figsize=(9, 7), facecolor="beige", dpi=170)
+        pyplot.plot(pltx, plty, "o-", color="orange")
+        pyplot.xlabel("Colleges", labelpad=10)
+        pyplot.xticks(rotation=90, fontsize=7, color="black")
+        pyplot.yticks(color="black", fontsize=6)
+        pyplot.ylabel(f"{param}", labelpad=7)
+        for i, value in enumerate(plty):
+            pyplot.text(i, plty[i], round(plty[i]),
+                        size=5, ha="right" if i % 2 else "left", va="top" if i % 2 else "bottom")
+        pyplot.savefig("graph.png")
+        pyplot.show()
+
 
 #
 
