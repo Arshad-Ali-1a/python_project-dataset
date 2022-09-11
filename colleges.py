@@ -1,14 +1,21 @@
 from json import load, dump
 from requests import get
 from matplotlib import pyplot
+from pathlib import Path
 
 # TODO add an encryption and decryption method to key.
 # TODO add a function to display all the branches sorted properly in sorted colleges.
 
+# getting the base path..
+_pp = str(Path().resolve()).split("\\")
+_ind = len(_pp)-1-(_pp[::-1].index("python_project-dataset"))
+_base_path = "\\".join(_pp[:_ind+1])
+
 
 class Branch():
-    _file_all_branches = r"Files\college_info\branch\courses_detail.json"
-    _file_all_branches_category = r"Files\college_info\branch\courses_category.json"
+    _file_all_branches = _base_path+r"\Files\college_info\branch\courses_detail.json"
+    _file_all_branches_category = _base_path + \
+        r"\Files\college_info\branch\courses_category.json"
 
     with open(_file_all_branches, "r") as j1, open(_file_all_branches_category, "r") as j2:
         all_branches = load(j1)
@@ -39,10 +46,10 @@ class CollegeBranch(Branch):
 
         # to open files when eamcet_d or placement_d are not provided, eg: when creating a CollegeBranch individually(not from College class)
         if eamcet_d == "manual":
-            with open(rf"Files\college_info\all_colleges\{college_code}\{college_code}_eamcet_info.json", "r") as j:
+            with open(_base_path+rf"\Files\college_info\all_colleges\{college_code}\{college_code}_eamcet_info.json", "r") as j:
                 eamcet_d = load(j)
         if placement_d == "manual":
-            with open(rf"Files\college_info\all_colleges\{college_code}\{college_code}_placement_analysis.json", "r") as j:
+            with open(_base_path+rf"\Files\college_info\all_colleges\{college_code}\{college_code}_placement_analysis.json", "r") as j:
                 placement_d = load(j)
 
         # super().__init__(code)
@@ -135,11 +142,13 @@ class College():
 
         self.code = code
 
-        _file_eamcet = rf"Files\college_info\all_colleges\{code}\{code}_eamcet_info.json"
+        _file_eamcet = _base_path + \
+            rf"\Files\college_info\all_colleges\{code}\{code}_eamcet_info.json"
         with open(_file_eamcet, "r") as j:
             eamcet_info = load(j)
 
-        _file_placement = rf"Files\college_info\all_colleges\{code}\{code}_placement_analysis.json"
+        _file_placement = _base_path + \
+            rf"\Files\college_info\all_colleges\{code}\{code}_placement_analysis.json"
         with open(_file_placement, "r") as j:
             placement_info = load(j)
 
@@ -671,7 +680,7 @@ if __name__ == "__main__":
 
 else:
 
-    file = r"Files\college_info\colleges_data_entered.json"
+    file = _base_path+r"\Files\college_info\colleges_data_entered.json"
     with open(file, "r") as j:
         j = load(j)
 
