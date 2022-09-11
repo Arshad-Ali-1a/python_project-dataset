@@ -18,4 +18,8 @@ def index(request):
     # return HttpResponse(KMIT.name)
 
 
+def homepage(request):
+    return render(request,r"home\homepage.html",{})
+
+
 
