@@ -28,16 +28,16 @@ def index(request):
                     print(form_data)
                     return display(form_data,request)
 
-                else: return render(request,r"sort_colleges\index.html",{"form":FormStudent(filled_form)})
+                else: return render(request,r"sort_colleges\index2.html",{"form":FormStudent(filled_form)})
 
 
             except AttributeError as er:
                 er=str(er) 
                 if "FormStudent"in er and "get" in er:
-                    return render(request,r"sort_colleges\index.html",{"warning":"please select at least one category","form":FormStudent()})
+                    return render(request,r"sort_colleges\index2.html",{"warning":"please select at least one category","form":FormStudent()})
                 else:return HttpResponse("Errrrrr")
         else:
-            return render(request,r"sort_colleges\index.html",{"form":FormStudent()})
+            return render(request,r"sort_colleges\index2.html",{"form":FormStudent()})
             
 
 def display(data,request):

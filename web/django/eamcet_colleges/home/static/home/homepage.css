@@ -4,7 +4,7 @@
     --light-theme: #fff;
 }
 body {
-    font-family: "Mulish", sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
     background-color: var(--background-color);
 }
 .container {
