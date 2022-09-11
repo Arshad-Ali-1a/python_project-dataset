@@ -1,0 +1,62 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home\index2.css' %}">
+    <!-- <script type="text/javascript" src="{% static 'home\index2.js' %}"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="heading">Eamcet Colleges</h3>
+    <div class="container">
+	
+        <div class="table">
+            <div class="table-header">
+                <div class="header__item"><a id="SlNO" class="filter__link" href="#">Sl.NO</a></div>
+                <div class="header__item"><a id="Code" class="filter__link filter__link" href="#">Code</a></div>
+                <div class="header__item"><a id="College" class="filter__link filter__link" href="#">College</a></div>
+                <div class="header__item"><a id="ClosingRank" class="filter__link filter__link--number" href="#">Closing Rank</a></div>
+                <div class="header__item"><a id="TotalIntake" class="filter__link filter__link--number" href="#">Total Intake</a></div>
+            </div>
+            <div class="table-content">	
+                {%for data in data_list%}
+
+                    <div class="table-row">		
+                        <div class="table-data">{{data.0 |add:1}}</div>
+                        <div class="table-data"><a id="Code-b" href="{{data.1.website}}" class="college_select" target="_blank">{{data.1.code}}</a></div>
+                        <div class="table-data"><a id="College-b" href="{{data.1.website}}" class="college_select" target="_blank">{{data.1.name}}</a></div>
+                        <div class="table-data">{{data.1.closing_rank}}</div>
+                        <div class="table-data">{{data.1.total_intake}}</div>
+                    </div>
+
+                {%endfor%}
+                <!-- <div class="table-row">		
+                    <div class="table-data">Tom</div>
+                    <div class="table-data">2</div>
+                    <div class="table-data">0</div>
+                    <div class="table-data">1</div>
+                    <div class="table-data">5</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-data">Dick</div>
+                    <div class="table-data">1</div>
+                    <div class="table-data">1</div>
+                    <div class="table-data">2</div>
+                    <div class="table-data">3</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-data">Harry</div>
+                    <div class="table-data">0</div>
+                    <div class="table-data">2</div>
+                    <div class="table-data">2</div>
+                    <div class="table-data">2</div>
+                </div> -->
+            </div>	
+        </div>
+    </div>
+</body>
+</html>
