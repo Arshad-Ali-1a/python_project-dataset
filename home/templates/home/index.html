@@ -1,0 +1,21 @@
+{% extends 'home\layout.html' %}
+
+{% block body %}
+
+    <table>
+        <td>Sl.NO</td>
+        <td>Code</td>
+        <td>College</td>
+        <td>Closing Rank</td>
+
+        {%for data in data_list%}
+            <tr>
+                <td>{{data.0}}</td>
+                <td>{{data.1.code}}</td>
+                <td>{{data.1.name}}</td>
+                <td>{{data.1.closing_rank}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}
