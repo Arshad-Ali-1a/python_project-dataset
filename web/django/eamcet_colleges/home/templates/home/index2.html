@@ -21,6 +21,17 @@
                 <div class="header__item"><a id="College" class="filter__link filter__link" href="#">College</a></div>
                 <div class="header__item"><a id="ClosingRank" class="filter__link filter__link--number" href="#">Closing Rank</a></div>
                 <div class="header__item"><a id="TotalIntake" class="filter__link filter__link--number" href="#">Total Intake</a></div>
+                <div class="header__item"><a id="HighestSalary" class="filter__link filter__link--number" href="#">Highest Salary</a></div>
+                <div class="header__item"><a id="LowestSalary" class="filter__link filter__link--number" href="#">Lowest Salary</a></div>
+                <div class="header__item"><a id="SalaryMode" class="filter__link filter__link--number" href="#">Salary Mode</a></div>
+                <div class="header__item"><a id="SalaryMean" class="filter__link filter__link--number" href="#">Salary Mean</a></div>
+                <div class="header__item"><a id="SalaryMedian" class="filter__link filter__link--number" href="#">Salary Median</a></div>
+                <div class="header__item"><a id="TotalOffers" class="filter__link filter__link--number" href="#">Total Offers</a></div>
+                <div class="header__item"><a id="CompaniesVisited" class="filter__link filter__link--number" href="#">Companies Visited</a></div>
+                <div class="header__item"><a id="PlacementPercent" class="filter__link filter__link--number" href="#">Placement Percent</a></div>
+                <div class="header__item"><a id="DataYear" class="filter__link filter__link--number" href="#">Data Year</a></div>
+
+                
             </div>
             <div class="table-content">	
                 {%for data in data_list%}
@@ -31,6 +42,15 @@
                         <div class="table-data"><a id="College-b" href="{{data.1.website}}" class="college_select" target="_blank">{{data.1.name}}</a></div>
                         <div class="table-data">{{data.1.closing_rank}}</div>
                         <div class="table-data">{{data.1.total_intake}}</div>
+                        <div class="table-data">{{data.1.highest_salary}}</div>
+                        <div class="table-data">{{data.1.lowest_salary}}</div>
+                        <div class="table-data">{{data.1.salary_mode}}</div>
+                        <div class="table-data">{{data.1.salary_mean}}</div>
+                        <div class="table-data">{{data.1.salary_median}}</div>
+                        <div class="table-data">{{data.1.total_offers}}</div>
+                        <div class="table-data">{{data.1.companies_visited}}</div>
+                        <div class="table-data">{{data.1.placement_percent}}</div>
+                        <div class="table-data">{{data.1.placement_data_year}}</div>
                     </div>
 
                 {%endfor%}

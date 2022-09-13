@@ -276,7 +276,7 @@ class College():
         self.highest_salary = other.get("highest_salary", None)
         self.lowest_salary = other.get("lowest_salary", None)
         self.salary_mode = other.get("salary_mode", None)
-        self.salary_mean = other.get("salary_mean", None)
+        self.salary_mean =round(g,2) if (g:=(other.get("salary_mean", None))) else None
         self.salary_median = other.get("salary_median", None)
         self.total_offers = other.get("total_offers", None)
         # yes, I know that spelling of companies is wrong.
