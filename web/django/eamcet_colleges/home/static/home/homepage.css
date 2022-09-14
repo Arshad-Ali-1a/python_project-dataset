@@ -1,11 +1,11 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    background-color: var(--background-color);
+}
 :root {
     --background-color: rgb(240, 232, 215);
     --color: #000;
     --light-theme: #fff;
-}
-body {
-    font-family: "Comic Sans MS", "Comic Sans", "cursive";
-    background-color: var(--background-color);
 }
 .container {
     display: flex;
