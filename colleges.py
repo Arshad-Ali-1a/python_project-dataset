@@ -17,7 +17,7 @@ from pathlib import Path
 
 
 class Branch():
-    _file_all_branches = r"Files\college_info\branch\courses_detail.json"#removed _base_url from here..
+    _file_all_branches = r"Files/college_info/branch/courses_detail.json"#removed _base_url from here..
     _file_all_branches_category = r"Files\college_info\branch\courses_category.json"
 
     with open(_file_all_branches, "r") as j1, open(_file_all_branches_category, "r") as j2:
