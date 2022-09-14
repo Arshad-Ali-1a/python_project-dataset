@@ -27,4 +27,5 @@ urlpatterns = [
     path('home/', include("home.urls")),
     path('sort_colleges/', include("sort_colleges.urls")),
     url(r'^static/(?P<path>.*)$',serve,{"document_root":settings.STATIC_ROOT}),#this line is very important... this makes the static files work in debug=false after python manage.py collectstatic
+    url(r'^media/(?P<path>.*)$',serve,{"document_root":settings.MEDIA_ROOT}),#this line is very important... this makes the static files work in debug=false after python manage.py collectstatic
 ]

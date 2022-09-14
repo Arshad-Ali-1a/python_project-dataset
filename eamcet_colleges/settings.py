@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-til@@%fu2h0j4(*+zz4rvt(y*h_&k6d(i##tu$_npwnzi^al*6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com','eamcet-colleges.herokuapp.com']
-# ALLOWED_HOSTS = ['*',]
+# ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com','eamcet-colleges.herokuapp.com']
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
@@ -122,12 +122,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/' 
+STATIC_URL = '/static/' 
+MEDIA_URL = '/media/'
 
 #if else added by me....they are also very important and load the css file correctly, else we get 500 error in css MEMS strictly.....
 if DEBUG:
     STATICFILES_DIRS=[os.path.join(BASE_DIR,"static")]
 else: STATIC_ROOT=os.path.join(BASE_DIR,"static")
+
+MEDIA_ROOT=[os.path.join(BASE_DIR,"media")]
 
 # STATICFILES_DIRS = [
 #     BASE_DIR / "static",
