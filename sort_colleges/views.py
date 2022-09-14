@@ -9,8 +9,8 @@ from json import loads
 # Create your views here.
 
 _pp = str(Path().resolve()).split("\\")
-_ind = len(_pp)-1-(_pp[::-1].index("python_project-dataset"))
-base_path = "\\".join(_pp[:_ind+1])
+_ind = len(_pp)-1-(_pp[::-1].index("sort_colleges"))
+base_path = "\\".join(_pp[:_ind])
 print(base_path)
 sys.path.append(base_path)
 
