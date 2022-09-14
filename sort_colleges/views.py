@@ -28,16 +28,16 @@ def index(request):
                     print(form_data)
                     return display(form_data,request)
 
-                else: return render(request,r"sort_colleges\index3.html",{"form":FormStudent(filled_form)})
+                else: return render(request,r"sort_colleges/index3.html",{"form":FormStudent(filled_form)})
 
 
             except AttributeError as er:
                 er=str(er) 
                 if "FormStudent"in er and "get" in er:
-                    return render(request,r"sort_colleges\index3.html",{"warning":"please select at least one category","form":FormStudent()})
+                    return render(request,r"sort_colleges/index3.html",{"warning":"please select at least one category","form":FormStudent()})
                 else:return HttpResponse("Errrrrr")
         else:
-            return render(request,r"sort_colleges\index3.html",{"form":FormStudent()})
+            return render(request,r"sort_colleges/index3.html",{"form":FormStudent()})
             
 
 def display(data,request):
@@ -50,5 +50,5 @@ def display(data,request):
         detailed_colleges.append((i,college,getattr(college,data["form_sorting_key"])))
         
 
-    return render(request,r"sort_colleges\display.html",{"key":data["form_sorting_key"],"data_list":detailed_colleges})
+    return render(request,r"sort_colleges/display.html",{"key":data["form_sorting_key"],"data_list":detailed_colleges})
 
