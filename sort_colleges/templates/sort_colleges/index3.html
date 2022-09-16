@@ -159,7 +159,8 @@
 
                 <body>
                     <form action="/sort_colleges/" method="post">
-                        <input type="hidden" name="csrfmiddlewaretoken" value="VtLKjX25X7eqUZ5lHcuaOe5Nz2ftbtU1XpC85p1QLrrxohuw4Tmq8hNIsYzWqLzP">
+                        <!-- <input type="hidden" name="csrfmiddlewaretoken" value="VtLKjX25X7eqUZ5lHcuaOe5Nz2ftbtU1XpC85p1QLrrxohuw4Tmq8hNIsYzWqLzP"> -->
+                        {% csrf_token %}
 
                         <tr>
                             <m class="thick">
