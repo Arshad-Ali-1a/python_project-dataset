@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     # 'whitenoise.runserver_nostatic',
     'home',
     'sort_colleges',
+    'college_info',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

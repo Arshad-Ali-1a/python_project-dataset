@@ -1,0 +1,436 @@
+/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #fff;
+    font-size: .8em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #292A0A;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.5em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    margin-top: 0px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color:#344327;
+}
+
+h3
+{
+     margin-top: 0px;
+    font-size: 1.2em;
+    color:Navy;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 1100px;
+    background-color:#FFFFFF;
+    margin: 4px auto 2px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    background: #E0F2F7 url(../images/header_new.png) no-repeat; 
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width:auto;
+    height:auto;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color:Navy;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    font-size:8pt;
+    font-weight:normal;
+    line-height: normal;
+}
+
+.pt8
+{
+    color:Blue;
+    font-size:8pt;
+    font-weight:normal;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#03385A; 
+    width:100%;
+    color:White;
+}
+
+div.menu
+{
+    padding:   6px 0px 6px 15px;
+    font-size:0.9em;
+}
+
+div.menu ul
+{  
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #223B5B;
+    border: 1px #CEECF5 solid;
+    color: #FFFFFF;
+    display: block;
+    line-height: 1em;
+    padding:  6px 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight:bold;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color:Navy;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width:100%;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: #336C9F;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 8pt;
+    color: Red;
+    font-weight:bold;
+}
+
+.bold
+{
+    font-weight:bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.legend 
+{
+    color:#344327; 
+    text-decoration:blink;
+    font-size:11pt;
+    font-weight:bolder;
+    font-weight: 800;
+    padding: 10px 4px 10px 4px;
+    width:500;
+    height:25;
+    
+}
+
+.tra {text-align: center; vertical-align: top; padding: 1; margin: 1; 
+      background-color:  #333300; color: white; border: thin none; background-position: left top;
+      font-weight: bold; font-size: 10pt; font-family: Verdana, arial;}
+.trb {text-align: center; vertical-align: top; padding: 1; margin: 1; 
+      background-color: #CEECF5; color:Navy; border: thin; background-position: left top;
+      font-weight: bold; font-size: 10pt; font-family: "Trebuchet MS", Arial;}
+.tdc {text-align: left; vertical-align:middle; padding: 2px 0px 2px 4px; margin: 1; color:Green; font-size: 9pt;
+      border: thin none; background-position: left top; background-color:#EEEDDB;}
+ 
+      
+.txtTitle { border-color:Fuchsia; border-width:thin; elevation:higher: black; font-weight: bold; font-size: 11pt; 
+            font-family: Verdana, Arial;}
+.textd {color:Navy; font-weight: bold; font-size: 9pt; font-family:"Trebuchet MS", Arial;}
+.tdvblock { background-color:#02273F;}
+.tdhblock { background-color:#d4e7f8;}
+.tdlblock { background-color:#ceedf8;}
+
+#candidate
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:95%;
+border-collapse:collapse;
+background-color:White;
+margin-left:3%; 
+margin-top:1%;
+
+}
+#candidate td, #candidate th 
+{
+font-size:1em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#candidate th 
+{
+font-size:1.1em;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#ffffff;
+color:#A7C942;
+}
+#candidate tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+/*
+.ipSF { font-size: 8pt; font-weight:bold; text-align: center; background-color:#BDBDBD;}
+.ipSM { font-size: 8pt; font-weight:bold; text-align: center; background-color:#F6CECE;}
+.ipMI { font-size: 8pt; font-weight:bold; text-align: center; background-color:#DBB6FD;}
+.ipGO { font-size: 8pt; font-weight:bold; text-align: center; background-color:#B5CEFC;}
+.ipSW { font-size: 8pt; font-weight:bold; text-align: center; background-color:#a9a9a9;}
+.ipNA { font-size: 8pt; font-weight:bold; text-align: center; background-color:#ECFAC6;}
+*/
+.ipSF { font-size: 8pt; font-weight:bold; text-align: center; background-color:#A4A4A4;}
+.ipSM { font-size: 8pt; font-weight:bold; text-align: center; background-color:#F6CECE;}
+.ipMI { font-size: 8pt; font-weight:bold; text-align: center; background-color:#A9F5A9;}
+.ipGO { font-size: 8pt; font-weight:bold; text-align: center; background-color:#58D3F7;}
+.ipSW { font-size: 8pt; font-weight:bold; text-align: center; background-color:#a9a9a9;}
+.ipNA { font-size: 8pt; font-weight:bold; text-align: center; background-color:#EBF0BB;}
+.ipMRM { font-size: 8pt; font-weight:bold; text-align: center; background-color:#F4FA58;}
+.ipMBF { font-size: 8pt; font-weight:bold; text-align: center; background-color:#F781F3;}
+.ipMHR { font-size: 8pt; font-weight:bold; text-align: center; background-color:#AEB404;}
+.ipMMM { font-size: 8pt; font-weight:bold; text-align: center; background-color:#F78181;}
+.ipMTM { font-size: 8pt; font-weight:bold; text-align: center; background-color:#ing-to;}
+.ipMBT { font-size: 8pt; font-weight:bold; text-align: center; background-color:#CC9966;}
+
+.tableContainer { position: relative; padding-top:25px; margin:0 auto; width:1100px;}
+.innerframe { overflow: auto; width:auto; height:550px;}
+.tableContainer thead tr { position: absolute; top:0px; left:0px;}
+.tableContainer th 
+{
+    font-size:0.9em;
+    text-align:center;
+    padding-top:4px;
+    padding-bottom:4px;
+    background-color:#445454;
+    color:#A7C934;
+    margin-bottom:auto;
+    
+}
+
+
+.txtErr
+{
+    text-align:center;
+	color: #CC0000;
+	background: inherit;
+	font-family: Verdana, Arial;
+	font-size: 9pt;
+	font-weight:bold;
+	text-decoration:blink;
+	
+}
+
+.txtGreen
+{
+	text-decoration: none;
+	border-bottom: none;
+	color: #006633;
+	background: inherit;
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Verdana;
+}
+
+.box {
+	margin: 10px; 
+	background: inherit;
+	color: #663300;
+	border: 1px solid #B7D64B;
+	padding: 6px;
+	font-family:Verdana;
+	font-size :9pt;
+}
+

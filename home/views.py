@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-from pathlib import Path
-import sys
+# from django.http import HttpResponse
+# from pathlib import Path
+# import sys
 # Create your views here.
 
 # _pp = str(Path().resolve()).split("\\")
@@ -9,9 +9,9 @@ import sys
 # base_path = "\\".join(_pp[:_ind])
 # # print(base_path)
 # sys.path.append(base_path)
-print("he")
+# print("he")
 from colleges import *
-print("heyy")
+# print("heyy")
 def index(request):
     sorted_colleges=College.sort_colleges("closing_rank")
     return render(request,r"home/index2.html",{"data_list": enumerate(sorted_colleges)})

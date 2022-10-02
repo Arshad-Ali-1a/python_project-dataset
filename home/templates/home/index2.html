@@ -40,8 +40,8 @@
 
                     <div class="table-row">		
                         <div class="table-data">{{data.0 |add:1}}</div>
-                        <div class="table-data"><a id="Code-b" href="{{data.1.website}}" class="college_select" target="_blank">{{data.1.code}}</a></div>
-                        <div class="table-data"><a id="College-b" href="{{data.1.website}}" class="college_select" target="_blank">{{data.1.name}}</a></div>
+                        <div class="table-data"><a id="Code-b" href="{% url 'college_info:index' college=data.1.code %}" class="college_select" target="_blank">{{data.1.code}}</a></div>
+                        <div class="table-data"><a id="College-b" href="{% url 'college_info:index' college=data.1.code %}" class="college_select" target="_blank">{{data.1.name}}</a></div>
                         <div class="table-data">{{data.1.closing_rank}}</div>
                         <div class="table-data">{{data.1.total_intake}}</div>
                         <div class="table-data">{{data.1.highest_salary}}</div>
