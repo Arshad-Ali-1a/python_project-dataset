@@ -50,8 +50,9 @@
 	 text-decoration: none;
 	 position: relative;
 	 display: inline-block;
-	 padding-left: 24px;
-	 padding-right: 24px;
+	 padding-left: relative;  /*changed these two lines from 24px to relative to fix the text going out of header issue.*/
+	 padding-right: relative; /*changed these two lines from 24px to relative to fix the text going out of header issue.*/
+     font-size: 1.8ex;
 }
  .filter__link::after {
 	 content: '';

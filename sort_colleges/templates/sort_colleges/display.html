@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="{% static 'sort_colleges\display.css' %}">
     <link rel="shortcut icon" href="{% static 'sort_colleges\favicon.ico' %}" type="image/x-icon">
     <!-- <link href="https://www.favicon.cc/favicon/764/984/favicon.png" rel="icon" type="image/x-icon" > -->
@@ -23,7 +23,12 @@
                 <div class="header__item"><a id="Code" class="filter__link filter__link" href="#">Code</a></div>
                 <div class="header__item"><a id="College" class="filter__link filter__link" href="#">College</a></div>
                 <div class="header__item"><a id="ClosingRank" class="filter__link filter__link--number" href="#">Closing Rank</a></div>
-                <div class="header__item"><a id="{{key}}" class="filter__link filter__link--number" href="#">{{key}}</a></div>
+                {% if key != 'closing_rank' and key != 'distance' and key != 'probability' %}
+                    <div class="header__item"><a id="{{key}}" class="filter__link filter__link--number" href="#">{{key}}</a></div>
+                {% endif %}
+                <div class="header__item"><a id="distance" class="filter__link filter__link--number" href="#">Distance (km)</a></div>
+                <div class="header__item"><a id="probability" class="filter__link filter__link--number" href="#">Probability</a></div>
+
             </div>
             <div class="table-content">	
                 {%for data in data_list%}
@@ -33,7 +38,11 @@
                         <div class="table-data"><a id="Code-b" href="{% url 'college_info:index' college=data.1.code %}" class="college_select" target="_blank">{{data.1.code}}</a></div>
                         <div class="table-data"><a id="College-b" href="{% url 'college_info:index' college=data.1.code %}" class="college_select" target="_blank">{{data.1.name}}</a></div>
                         <div class="table-data">{{data.1.closing_rank}}</div>
-                        <div class="table-data">{{data.2}}</div>
+                        {% if key != 'closing_rank' and key != 'distance' and key != 'probability' %}
+                            <div class="table-data">{{data.2}}</div>
+                        {% endif %}
+                        <div class="table-data">{{data.1.distance | floatformat:2}}</div>
+                        <div class="table-data">{{data.1.probability | floatformat:2}}</div>
                     </div>
 
                 {%endfor%}

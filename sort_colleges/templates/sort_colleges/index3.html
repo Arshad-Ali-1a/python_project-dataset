@@ -132,7 +132,7 @@
                 <a href="#home" class="w3-bar-item w3-button"><b>EAMCET</b> COLLEGES</a>
                 <!-- Float links to the right. Hide them on small screens -->
                 <div class="w3-right w3-hide-small">
-                    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+                    <a href="#projects" class="w3-bar-item w3-button">Form</a>
                     <a href="#about" class="w3-bar-item w3-button">About</a>
                     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
                 </div>
@@ -166,7 +166,7 @@
                 </head>
 
                 <body>
-                    <form action="/sort_colleges/" method="post">
+                    <form action="/sort_colleges/" method="post" id="details">
                         <!-- <input type="hidden" name="csrfmiddlewaretoken" value="VtLKjX25X7eqUZ5lHcuaOe5Nz2ftbtU1XpC85p1QLrrxohuw4Tmq8hNIsYzWqLzP"> -->
                         {% csrf_token %}
 
@@ -191,12 +191,12 @@
 
                                     <div id="id_form_gender">
                                         <div>
-                                            <label for="id_form_gender_0"><input type="radio" name="form_gender" value="Boys" required id="id_form_gender_0" style="margin-left: 40px;">
+                                            <label for="id_form_gender_0"><input type="radio" name="form_gender" value="Boys" required id="id_form_gender_0" style="margin-left: 40px;" data-gender="boy">
  Male</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_gender_1"><input type="radio" name="form_gender" value="Girls" required id="id_form_gender_1" style="margin-left: 40px;">
+                                            <label for="id_form_gender_1"><input type="radio" name="form_gender" value="Girls" required id="id_form_gender_1" style="margin-left: 40px;" data-gender="girl">
  Female</label>
 
                                         </div>
@@ -214,42 +214,42 @@
 
                                     <div id="id_form_category">
                                         <div>
-                                            <label for="id_form_category_0"><input type="radio" name="form_category" value="OC" required id="id_form_category_0">
+                                            <label for="id_form_category_0"><input type="radio" name="form_category" value="OC" required id="id_form_category_0" data-category="OC">
  OC</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_category_1"><input type="radio" name="form_category" value="BC_A" required id="id_form_category_1">
+                                            <label for="id_form_category_1"><input type="radio" name="form_category" value="BC_A" required id="id_form_category_1" data-category="BC_A">
  BC_A</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_category_2"><input type="radio" name="form_category" value="BC_B" required id="id_form_category_2">
+                                            <label for="id_form_category_2"><input type="radio" name="form_category" value="BC_B" required id="id_form_category_2" data-category="BC_B">
  BC_B</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_category_3"><input type="radio" name="form_category" value="BC_C" required id="id_form_category_3">
+                                            <label for="id_form_category_3"><input type="radio" name="form_category" value="BC_C" required id="id_form_category_3" data-category="BC_C">
  BC_C</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_category_4"><input type="radio" name="form_category" value="BC_D" required id="id_form_category_4">
+                                            <label for="id_form_category_4"><input type="radio" name="form_category" value="BC_D" required id="id_form_category_4" data-category="BC_D">
  BC_D</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_category_5"><input type="radio" name="form_category" value="BC_E" required id="id_form_category_5">
+                                            <label for="id_form_category_5"><input type="radio" name="form_category" value="BC_E" required id="id_form_category_5" data-category="BC_E">
  BC_E</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_category_6"><input type="radio" name="form_category" value="SC" required id="id_form_category_6">
+                                            <label for="id_form_category_6"><input type="radio" name="form_category" value="SC" required id="id_form_category_6" data-category="SC">
  SC</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_category_7"><input type="radio" name="form_category" value="ST" required id="id_form_category_7">
+                                            <label for="id_form_category_7"><input type="radio" name="form_category" value="ST" required id="id_form_category_7" data-category="ST">
  ST</label>
 
                                         </div>
@@ -267,12 +267,12 @@
                                 <ul>
                                     <div id="id_form_branch_categories">
                                         <div>
-                                            <label for="id_form_branch_categories_0"><input type="checkbox" name="form_branch_categories" value="COMPUTER" id="id_form_branch_categories_0">
+                                            <label for="id_form_branch_categories_0"><input type="checkbox" name="form_branch_categories" value="COMPUTER" id="id_form_branch_categories_0" checked>
  COMPUTER</label>
 
                                         </div>
                                         <div>
-                                            <label for="id_form_branch_categories_1"><input type="checkbox" name="form_branch_categories" value="COMPUTER_2" id="id_form_branch_categories_1">
+                                            <label for="id_form_branch_categories_1"><input type="checkbox" name="form_branch_categories" value="COMPUTER_2" id="id_form_branch_categories_1" checked>
  COMPUTER_2</label>
 
                                         </div>
@@ -409,7 +409,7 @@
 
                                         </div>
                                         <div>
-                                            <label for="id_form_sorting_key_12"><input type="radio" name="form_sorting_key" value="closing_rank" required id="id_form_sorting_key_12">
+                                            <label for="id_form_sorting_key_12"><input type="radio" name="form_sorting_key" value="closing_rank" required id="id_form_sorting_key_12" checked>
  closing_rank</label>
 
                                         </div>
