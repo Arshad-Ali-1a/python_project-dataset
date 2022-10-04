@@ -2,7 +2,7 @@
 <!DOCTYPE html lang="en">
 <html>
 <head><title>
-	Eamcet College
+	College information
 </title>
     
     <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -77,13 +77,19 @@
     body{
         background-color: rgb(240, 232, 215);
     }
+    .heading{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+	    font-family: 'Dancing Script', cursive;
+    }
 </style>
 </head>
 
 
 <body>
    
-
+    <h2 class="heading">{{ college.name }} -({{ college.code }})</h2>
     
 
     <!-- ======= Top Bar ======= -->
@@ -101,8 +107,8 @@
         <!-- ======= Header ======= -->
         <header id="header" class="d-flex align-items-center">
         <div class="container d-flex  ">
-            <img alt="Home page" src="{% static 'college_info/favicon.ico' %}" height="40" width="40" style="margin-top:0px; margin-right:10px; margin-top:4px;" />
-            <a href="{% url 'home:homepage' %}"  style="font-family:Britannic; font-size:large; padding-top:0px; color:black;">Home</a>
+            <!-- <img alt="Home page" src="{% static 'college_info/favicon.ico' %}" height="40" width="40" style="margin-top:0px; margin-right:10px; margin-top:4px;" /> -->
+            <a href="{% url 'home:homepage' %}"  style="font-family:cursive; font-size:large; padding-top:0px; color:black;">Home</a>
 
             <!-- <nav id="navbar" class="navbar">
             <ul>
@@ -141,17 +147,21 @@
   th, td {
     border-collapse: collapse;
     border: 1px solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
+
 </style>
  
             <br />
-            <table class="textd" style="border-style:groove; border-width:thin; " align="center" bgcolor="#BFB5B7" border="2" bordercolor="#ffffff" width="95%">
-                   <tr>
-                    <td>{{ college.name }} -({{ college.code }})</td>
+            <table class="textd" style="border-style:solid; border-width:thin; " align="center" bgcolor="#BFB5B7" border="2" bordercolor="#ffffff" width="95%">
+                   <!-- <tr> -->
+                    <!-- <td>{{ college.name }} -({{ college.code }})</td> -->
                     <!-- <td align="right" colspan="4" >
                         <a href='institute_profile.aspx'><img src='images/back.jpg' alt="Back" width="20" height="24"></a>
                    </td> -->
-                   </tr> 
+                   <!-- </tr>  -->
                    <tr valign="top">
                     <td align="left" bgcolor="#F9F3D7">College Code :</td>
                     <td align="left" bgcolor="#ffffff">&nbsp;{{college.code}}</td>
@@ -159,13 +169,13 @@
                     <td align="left" bgcolor="#ffffff">&nbsp;{{college.name}}</td>
                 </tr>
                 <tr valign="top">
-                    <td bgcolor="#F9F3D7">Co-Education:</td>
+                    <td bgcolor="#F9F3D7">Co-Education :</td>
                     <td bgcolor="#ffffff">&nbsp;{{college.coed}} </td>
                     <td bgcolor="#F9F3D7">Minority Status :</td>
                     <td bgcolor="#ffffff">&nbsp;{{college.minority}}</td>
                 </tr>
                 <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7"> Region:</td>
+                    <td align="left" bgcolor="#F9F3D7"> Region :</td>
                     <td align="left" bgcolor="#ffffff">&nbsp;{{college.region}}</td>
                     <td align="left" bgcolor="#F9F3D7">Aided :</td>
                     <td align="left" bgcolor="#ffffff">&nbsp;{{college.aided}}</td>
@@ -174,7 +184,6 @@
                 <tr>
                     <td bgcolor="#F9F3D7">Private :</td>
                     <td bgcolor="#ffffff">&nbsp;{{college.pvt}}</td>
-                    
                     <td align="left" bgcolor="#F9F3D7">Phone No :</td>
                     <td align="left" bgcolor="#ffffff">&nbsp;{{college.phone}}</td>
                 </tr>
@@ -206,9 +215,8 @@
                 </tr>
                 <tr valign="top">
                     <td align="left" bgcolor="#F9F3D7">Email ID :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;
-                        {{college.email}}
-                    </td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.email}}</td>
+
                     <td align="left" bgcolor="#F9F3D7">Affilited to :</td>
                     <td align="left" bgcolor="#ffffff">&nbsp;{{college.affiliated}}</td>
                 </tr>
@@ -217,7 +225,7 @@
                     <td align="left" bgcolor="#F9F3D7" colspan="2">
                        For more details about the Institute, Visit Website :</td>
                     <td align="left" bgcolor="#ffffff" colspan="2">&nbsp;
-                        <a href="{{college.website}}" target="_blank">{{college.website}}</a>
+                        <a href="{{college.website}}" target="_blank">{{college.website|slice:"8:"}}</a>
                     </td>
                 </tr>
 
