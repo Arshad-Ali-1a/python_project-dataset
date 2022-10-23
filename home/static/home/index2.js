@@ -78,7 +78,7 @@ function main(){
 	const headers=document.querySelectorAll(".sort_keys")
 	var table_rows= document.querySelectorAll(".table-row")
 	table_rows= Array.from(table_rows)
-	console.log((table_rows));
+	// console.log((table_rows[4].querySelector("#tableDataYear").innerHTML));
 	headers.forEach(element => {
 		element.addEventListener("click",event =>{
 
@@ -87,12 +87,32 @@ function main(){
 
 
 			table_rows.sort((a,b) => {
-				a=parseInt(a.querySelector(`#table${element.id}`).innerHTML)
-				b=parseInt(b.querySelector(`#table${element.id}`).innerHTML)
-				
-				if (element.dataset.sort_type==="ascending")return(a-b)
-				else if (element.dataset.sort_type==="descending")return(b-a)
-				else return 0
+
+				a=a.querySelector(`#table${element.id}`).innerHTML
+				b=b.querySelector(`#table${element.id}`).innerHTML
+
+				if (element.dataset.sort_type==="ascending"){
+					if(a=="None" && b=="None") return 0
+					else if (a=="None") return 1
+					else if (b=="None") return -1
+
+					return(parseInt(a)-parseInt(b))
+				}
+
+				else if (element.dataset.sort_type==="descending"){
+					if(a=="None" && b=="None") return 0
+					else if (b=="None") return -1
+					else if (a=="None") return 1
+
+					return(parseInt(b)-parseInt(a))
+				}
+
+				else{
+					console.log("problem in sorting")
+					return 0 
+				}
+					
+				//then some problem
 			})
 
 			//making table empty.
