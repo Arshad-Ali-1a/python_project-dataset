@@ -45,7 +45,7 @@
  .header__item {
 	 text-transform: uppercase;
 }
- .filter__link {
+ .not_sort_keys,.sort_keys {
 	 color: white;
 	 text-decoration: none;
 	 position: relative;
@@ -54,7 +54,7 @@
 	 padding-right: relative; /*changed these two lines from 24px to relative to fix the text going out of header issue.*/
      font-size: 1.8ex;
 }
- .filter__link::after {
+ .sort_keys::after {
 	 content: '';
 	 position: absolute;
 	 right: -18px;
@@ -63,10 +63,10 @@
 	 top: 50%;
 	 transform: translateY(-50%);
 }
- .filter__link.desc::after {
+ .sort_keys.desc::after {
 	 content: '(desc)';
 }
- .filter__link.asc::after {
+ .sort_keys.asc::after {
 	 content: '(asc)';
 }
  

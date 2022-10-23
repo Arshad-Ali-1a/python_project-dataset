@@ -1,15 +1,36 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="{% static 'home\index2.css' %}">
     <link rel="shortcut icon" href="{% static 'home\favicon.ico' %}" type="image/x-icon">
     <!-- <link href="https://www.favicon.cc/favicon/764/984/favicon.png" rel="icon" type="image/x-icon" > -->
-    <title>Eamcet Colleges</title>
+    <script type="text/javascript" src="{% static 'home\index2.js' %}"></script>
+    <title>Document</title>
+
 </head>
 <body>
-    {%block body%}
-    {%endblock%} 
+    <h2 class="heading">Eamcet Colleges</h3>
+        <span>Click on a college to view more information.</span>
+        <a href="{% url 'home:homepage' %}"  style="font-family:cursive; font-size:large; padding-left:20px; color:black;">Home</a>
+    <div class="container">
+	
+        <div class="table">
+            <div class="table-header">
+                {% block header %}
+                {% endblock %}
+            
+            </div>
+            <div class="table-content"> 
+                {% block table %}
+                {% endblock %}
+            
+            </div>	
+        </div>
+    </div>
 </body>
 </html>

@@ -127,9 +127,13 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 #if else added by me....they are also very important and load the css file correctly, else we get 500 error in css MEMS strictly.....
+
 if DEBUG:
-    STATICFILES_DIRS=[os.path.join(BASE_DIR,"static")]
+    # STATICFILES_DIRS=[os.path.join(BASE_DIR,"static")]
+    # commented as, while development, this was causing the static files to not be found
+    pass
 else: STATIC_ROOT=os.path.join(BASE_DIR,"static")
+
 
 MEDIA_ROOT=[os.path.join(BASE_DIR,"media")]
 
