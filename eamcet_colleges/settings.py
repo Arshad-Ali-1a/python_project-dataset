@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-til@@%fu2h0j4(*+zz4rvt(y*h_&k6d(i##tu$_npwnzi^al*6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True #!!!!!!
 
 # ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com','eamcet-colleges.herokuapp.com']
 ALLOWED_HOSTS = ['*',]
@@ -56,6 +56,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+X_FRAME_OPTIONS = 'SAMEORIGIN' #!added this
 
 ROOT_URLCONF = 'eamcet_colleges.urls'
 

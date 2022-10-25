@@ -81,3 +81,10 @@
     text-decoration: none;
     color:rgb(11, 53, 180);
 }
+
+.sticky_header{
+	/* width: 95.63vw; */
+	width: 95.63vw;
+	position: fixed;
+	top: 0;
+}

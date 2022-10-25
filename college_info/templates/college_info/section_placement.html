@@ -1,0 +1,197 @@
+{%load static%}
+<!DOCTYPE html lang="en">
+<html>
+<head><title>
+	{{college.name}}
+</title>
+    
+    <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" />
+    <meta name="referrer" content="origin" /> 
+
+
+    <link rel="shortcut icon" href="{% static 'college_info/favicon.ico' %}" type="image/x-icon">
+    <meta http-equiv="Cache-control" content="no-cache" /> <!-- page details may not be cached by Bowser / Search engine memory-->
+    <meta http-equiv="Cache-control" content="no-store" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-control" content="must-revalidate" />
+
+
+
+    <style type='text/css' media='print'>
+            img.NoPrint {display:none;}
+            p.NonPrintable {display:none;}
+            .nonl {clear:none;}
+            .NP {display:none;}
+    </style>
+
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+
+            $(document).bind("contextmenu", function (e) {
+                return false;
+            });
+            window.history.pushState(null, "", window.location.href);
+            window.addEventListener('popstate', function () {
+                window.history.pushState(null, "", window.location.href);
+
+            });
+        });
+    </script>
+
+<style>
+    table{
+        border-collapse:collapse;
+        border-color: black;
+    }
+    body{
+        background-color: rgb(240, 232, 215);
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+	    font-family: 'Dancing Script', cursive;
+    }
+</style>
+</head>
+
+
+<body>
+
+<div class="main">
+            
+<style>
+  th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+</style>
+ 
+            <br />
+            <table class="textd" style="border-style:solid; border-width:thin; " align="center" bgcolor="#BFB5B7" border="2" bordercolor="#ffffff" width="95%">
+                   <!-- <tr> -->
+                    <!-- <td>{{ college.name }} -({{ college.code }})</td> -->
+                    <!-- <td align="right" colspan="4" >
+                        <a href='institute_profile.aspx'><img src='images/back.jpg' alt="Back" width="20" height="24"></a>
+                   </td> -->
+                   <!-- </tr>  -->
+                   <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7">College Code :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.code}}</td>
+                    <td align="left" bgcolor="#F9F3D7">College Name :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.name}}</td>
+                </tr>
+                <tr valign="top">
+                    <td bgcolor="#F9F3D7">Co-Education :</td>
+                    <td bgcolor="#ffffff">&nbsp;{{college.coed}} </td>
+                    <td bgcolor="#F9F3D7">Minority Status :</td>
+                    <td bgcolor="#ffffff">&nbsp;{{college.minority}}</td>
+                </tr>
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7"> Region :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.region}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Aided :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.aided}}</td>
+                </tr>
+      
+                <tr>
+                    <td bgcolor="#F9F3D7">Private :</td>
+                    <td bgcolor="#ffffff">&nbsp;{{college.pvt}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Phone No :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.phone}}</td>
+                </tr>
+
+		
+     
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7" colspan="4">
+                        Address of the College :
+                            <table class="textd" align="center" bgcolor="white" border="1" bordercolor="#ffffff" bordercolorlight="#003366" width="50%">
+                                <tr>
+                                    <td>&nbsp;&nbsp;&nbsp;{{college.address}}</td>
+                                </tr>
+                            </table>
+                    <br />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7">Place of the College :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.place}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Hostel Availability  :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.hostel}}</td>
+                </tr>
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7">District in which located :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.district}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Year of Establishment :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.year}}</td>
+                </tr>
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7">Email ID :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.email}}</td>
+
+                    <td align="left" bgcolor="#F9F3D7">Affilited to :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.affiliated}}</td>
+                </tr>
+                
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7" colspan="2">
+                       For more details about the Institute, Visit Website :</td>
+                    <td align="left" bgcolor="#ffffff" colspan="2">&nbsp;
+                        <a href="{{college.website}}" target="_blank">{{college.website|slice:"8:"}}</a>
+                    </td>
+                </tr>
+
+
+                <!-- <tr valign="top">
+                    <td align="left" bgcolor="#ffffff" colspan="4" style="color:red;">
+				Note:   As per the Hon’ble High Court in Common interim order in IA No. 1 of 2022 in W.P.No.33610 of 2022 dated: 24-08-2022 permitted the petitioner institution to collect fee as mentioned in the order. The candidates and parent are hereby informed to make a note before exercising options.
+		    </td>
+                </tr> -->
+
+
+
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7" colspan="4">
+                       Courses Offered: 
+                       <br />   
+                        <br /> 
+                    <table class='textd' align='center' bgcolor='white' border='1' bordercolor='#ffffff' bordercolorlight='#003366' width='90%'><tr class='tdc'><!--<td>S.No</td>--><td>Branch Code</td><td>Branch Name</td><td>Intake <br /><font size='1'>(Total)</td><td align='center'>Fee</td></tr>
+                        
+                        {% for branch in college.branches %}
+                            <tr>
+                                <!-- <td> &nbsp; &nbsp; 1</td> -->
+                                <td> &nbsp; &nbsp; {{branch.code}}</td>
+                                <td> &nbsp; &nbsp; {{branch.name}}</td>
+                                <td> &nbsp; &nbsp; {{branch.intake}}</td>
+                                <td> &nbsp; &nbsp; {{branch.fees}} &nbsp; </td>
+                            </tr>
+
+                            {% empty %}
+                            <tr>No branches.</tr>
+                        {% endfor %}
+                    </table>
+                    <br />
+                    </td>
+                </tr>
+	            <tr align="center">
+	                <td bgcolor="#F9F3D7" colspan="4" class="pt8" align="center">
+	                OU = Osmania University,  AU = Andhra University,  SVU = Sri Venkateshwara University,  SW = State-wide  <br /> None = Not Available,  RL = Regional,  COED => (both = boys and girls)
+	                GOV = Government, PVT = Private, UNI = University</td>
+	            </tr>
+            </table>
+            <br />
+    
+        </div>
+        <br><br>
+
+
+   
+</body>
+</html>

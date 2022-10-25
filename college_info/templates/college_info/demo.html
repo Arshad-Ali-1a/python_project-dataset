@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{% static 'college_info/demo.js' %}"></script>
+    <title>Document</title>
+    <style>
+        /* hides scrollbar, but still able to scroll */
+        .container::-webkit-scrollbar { 
+            display: none;  /* Safari and Chrome */
+        }
+    </style>
+</head>
+<body style="background-color:rgb(240, 232, 215)" class="container" >
+    <iframe id="sections" src="{% url 'college_info:index' college='CBIT' %}" width="100%" text-align="center" height="0" marginheight="0" marginwidth="0" frameborder="0" style="width: 100%; display:block;">
+        <!-- height to be set by javascript equal to device window height... -->
+    </iframe>
+
+    
+</body>
+</html>
