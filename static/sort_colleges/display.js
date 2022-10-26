@@ -1,72 +1,30 @@
-var properties = [
-	'SlNO',
-	'Code',
-	'College',
-	'ClosingRank',
-	'TotalIntake',
-];
-document.addEventListener('DOMContentLoaded',main)
 
-function main() {
-properties.forEach(function( val,i ) {
+document.addEventListener('DOMContentLoaded',()=>{
+	console.log("hoihihihihi")
+	var table_rows= document.querySelectorAll(".table-row")
+	table_rows= Array.from(table_rows)
+
+
+	document.getElementById("OriginalSort").addEventListener("click",(event)=>{
+
+		const element= event.target;
+		if ((! element.dataset.sort_type) || (element.dataset.sort_type==="descending")) element.dataset.sort_type="ascending";
+		else element.dataset.sort_type="descending";
+
 	
-	var orderClass = '';
+		//making table empty.
+		document.querySelector(".table-content").innerHTML = "";
 
-	document.querySelector("#" + val).click(function(e){//removed all from queryselector
-		e.preventDefault();
-		document.querySelectorAll('.filter__link.filter__link--active').not(this).removeClass('filter__link--active');
-        this.toggleClass('filter__link--active');
-        document.querySelectorAll('.filter__link').removeClass('asc desc');
+		//adding in table
+		if (element.dataset.sort_type="descending") var table_rows_new=table_rows.reverse()
+		else var table_rows_new=table_rows
 
-   		if(orderClass == 'desc' || orderClass == '') {
-            this.addClass('asc');
-    			orderClass = 'asc';
-       	} else {
-            this.addClass('desc');
-       		orderClass = 'desc';
-       	}
+		var count=1;
+		for (let row of table_rows_new) {
+			row.querySelector(`#tableSlno`).innerHTML=count;
+			count++;
+			document.querySelector(".table-content").appendChild(row)
+		}
+	})
 
-		var parent = this.closest('.header__item');
-    		var index = document.querySelectorAll(".header__item").index(parent);
-		var $table = document.querySelector('.table-content');
-		var rows = $table.find('.table-row').get();
-		var isSelected = (this).hasClass('filter__link--active');
-		var isNumber = (this).hasClass('filter__link--number');
-			
-		rows.sort(function(a, b){
-
-			var x = (a).find('.table-data').eq(index).text();
-    			var y = (b).find('.table-data').eq(index).text();
-				
-			if(isNumber == true) {
-    					
-				if(isSelected) {
-					return x - y;
-				} else {
-					return y - x;
-				}
-
-			} else {
-			
-				if(isSelected) {		
-					if(x < y) return -1;
-					if(x > y) return 1;
-					return 0;
-				} else {
-					if(x > y) return -1;
-					if(x < y) return 1;
-					return 0;
-				}
-			}
-    		});
-
-            Object.keys(rows).forEach(function(row,index) {
-			$table.append(row);
-		});
-
-		return false;
-	});
-
-});
-
-}
+})
