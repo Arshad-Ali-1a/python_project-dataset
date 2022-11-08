@@ -1,0 +1,224 @@
+{%load dict_get%}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>{{college.name}}</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+        <style>
+            .nav-bar{
+                display:table;
+                width:100%;
+                align-items:center;
+                text-align: center;
+                margin-bottom: 6vh;
+            }
+            .nav-elements{
+                display:inline;
+                position:relative;
+                margin: 0;
+            }
+            .nav-a {
+              display: inline;
+              color: rgb(0, 0, 0);
+              text-align: center;
+              padding: 10vw;
+              text-decoration: none;
+              font-size: larger;
+            }
+
+            /* Change the link color to #111 (black) on hover */
+
+        </style>
+            <div class="nav-elements"><a class="nav-a"  href="#" data-link="table_2021"><b>2021</b></a></div>
+            <div class="nav-elements"><a class="nav-a"  href="#" data-link="table_2020"><b>2020</b></a></div>
+            <div class="nav-elements"><a class="nav-a"  href="#" data-link="table_2019"><b>2019</b></a></div>
+    </div>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+        console.log("hellooo");
+        document.querySelectorAll(".nav-a").forEach((element) => {
+        element.addEventListener("click",(event) => {
+
+            console.log(element.dataset.link)
+            // hiding all
+            document.querySelectorAll(".container, .heading").forEach((element3) => {
+                element3.style.display="none";
+            })
+
+            // making one visible
+            document.querySelectorAll(`.${element.dataset.link}`).forEach((element2)=>{
+                element2.style.display="flex";
+            })
+        })
+    })
+    })
+</script>
+<!-- for table -->
+    <link rel="stylesheet" href="{% static 'home\layout.css' %}">
+    <script type="text/javascript" src="{% static 'home\layout.js' %}"></script>
+    
+<!-- 2021 -->
+        <h2 class="table_2021 heading" style="margin-bottom:0.5vh; display:flex;"><b>Year: 2021</b><br><br></h2>
+        <div class="container table_2021" style="display:flex;">
+	
+            <div class="table">
+                <div class="table-header">
+                    <div class="header__item"><a class="not_sort_keys keep" href="#">Branch</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">Gender</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">OC</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_A</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_B</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_C</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_D</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_E</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">SC</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">ST</a></div>
+                
+                </div>
+                <div class="table-content">
+                    {% for branch in college.branches %} 
+                        <div class="table-row"  >
+                            <div class="table-data" >{{branch.name}}</div>
+                            <div class="table-data" >Boys</div>
+                            <div class="table-data" >{{ branch.clsrnk21|get_space:"OC BOYS" }}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_A BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_B BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_C BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_D BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_E BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"SC BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"ST BOYS"}}</div>
+                        </div>
+                        <div class="table-row" >
+                            <div class="table-data" >{{branch.code}}</div>
+                            <div class="table-data" >Girls</div>
+                            <div class="table-data" >{{ branch.clsrnk21|get_space:"OC GIRLS" }}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_A GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_B GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_C GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_D GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"BC_E GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"SC GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk21|get_space:"ST GIRLS"}}</div>
+                        </div>
+                        <div class="table-row" style="background-color:rgba(0, 0, 0, 0.3); border:none;"></div>
+                    {% endfor %}
+                </div>	
+            </div>
+        </div>
+
+
+<!-- 2020 -->
+        <h2 class="table_2020 heading" style="margin-bottom:0.5vh; display:none;"><b>Year: 2020</b><br><br></h2>
+        <div class="container table_2020" style="display:none;">
+	
+            <div class="table">
+                <div class="table-header">
+                    <div class="header__item"><a class="not_sort_keys keep" href="#">Branch</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">Gender</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">OC</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_A</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_B</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_C</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_D</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_E</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">SC</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">ST</a></div>
+                
+                </div>
+                <div class="table-content">
+                    {% for branch in college.branches %} 
+                        <div class="table-row"  >
+                            <div class="table-data" >{{branch.name}}</div>
+                            <div class="table-data" >Boys</div>
+                            <div class="table-data" >{{ branch.clsrnk20|get_space:"OC BOYS" }}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_A BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_B BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_C BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_D BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_E BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"SC BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"ST BOYS"}}</div>
+                        </div>
+                        <div class="table-row" >
+                            <div class="table-data" >{{branch.code}}</div>
+                            <div class="table-data" >Girls</div>
+                            <div class="table-data" >{{ branch.clsrnk20|get_space:"OC GIRLS" }}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_A GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_B GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_C GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_D GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"BC_E GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"SC GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk20|get_space:"ST GIRLS"}}</div>
+                        </div>
+                        <div class="table-row" style="background-color:rgba(0, 0, 0, 0.3); border:none;"></div>
+                    {% endfor %}
+                </div>	
+            </div>
+        </div>
+
+
+<!-- 2019 -->
+        <h2 class="table_2019 heading" style="margin-bottom:0.5vh; display:none;"><b>Year: 2019</b><br><br></h2>
+        <div class="container table_2019" style="display:none;">
+	
+            <div class="table">
+                <div class="table-header">
+                    <div class="header__item"><a class="not_sort_keys keep" href="#">Branch</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">Gender</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">OC</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_A</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_B</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_C</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_D</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">BC_E</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">SC</a></div>
+                    <div class="header__item"><a class="not_sort_keys" href="#">ST</a></div>
+                
+                </div>
+                <div class="table-content">
+                    {% for branch in college.branches %} 
+                        <div class="table-row"  >
+                            <div class="table-data" >{{branch.name}}</div>
+                            <div class="table-data" >Boys</div>
+                            <div class="table-data" >{{ branch.clsrnk19|get_space:"OC BOYS" }}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_A BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_B BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_C BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_D BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_E BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"SC BOYS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"ST BOYS"}}</div>
+                        </div>
+                        <div class="table-row" >
+                            <div class="table-data" >{{branch.code}}</div>
+                            <div class="table-data" >Girls</div>
+                            <div class="table-data" >{{ branch.clsrnk19|get_space:"OC GIRLS" }}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_A GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_B GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_C GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_D GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"BC_E GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"SC GIRLS"}}</div>
+                            <div class="table-data" >{{branch.clsrnk19|get_space:"ST GIRLS"}}</div>
+                        </div>
+                        <div class="table-row" style="background-color:rgba(0, 0, 0, 0.3); border:none;"></div>
+                    {% endfor %}
+                </div>	
+            </div>
+        </div>
+    
+</body>
+</html>
