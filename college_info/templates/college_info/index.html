@@ -5,9 +5,10 @@
 	{{college.name}}
 </title>
     
-    <meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta charset="utf-8" />
+    <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport" /> -->
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" /> -->
     <meta name="referrer" content="origin" /> 
     <!-- Favicons -->
 
@@ -116,7 +117,7 @@
         <header id="header" class="d-flex align-items-center">
         <div class="container d-flex  ">
             <!-- <img alt="Home page" src="{% static 'college_info/favicon.ico' %}" height="40" width="40" style="margin-top:0px; margin-right:10px; margin-top:4px;" /> -->
-            <a href="{% url 'home:homepage' %}"  style="font-family:cursive; font-size:large; padding-top:0px; color:black;">Home</a>
+            <!-- <a href="{% url 'home:homepage' %}"  style="font-family:cursive; font-size:large; padding-top:0px; color:black;">Home</a> -->
 
             <!-- <nav id="navbar" class="navbar">
             <ul>
@@ -139,7 +140,38 @@
         <!-- End Header -->
 
      <!-- <form method="post" action="./institute_details.aspx?iCode=ACEG" id="ctl01" autocomplete="OFF"> -->
-              
+    <div class="nav-bar">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+        <style>
+            .nav-bar{
+                display:table;
+                width:100%;
+                align-items:center;
+                text-align: center;
+                margin-bottom: 2vh;
+            }
+            .nav-elements{
+                display:inline;
+                position:relative;
+                margin: 0;
+            }
+            a {
+              display: inline;
+              color: rgb(0, 0, 0);
+              text-align: center;
+              padding: 3vw;
+              text-decoration: none;
+              font-size: larger;
+            }
+
+            /* Change the link color to #111 (black) on hover */
+
+        </style>
+            <div class="nav-elements"><a class="nav-a"  href="#" data-link="eamcet">Eamcet</a></div>
+            <div class="nav-elements"><a class="nav-a"  href="#" data-link="placement">Placement</a></div>
+            <div class="nav-elements"><a class="nav-a"  href="#" data-link="clsrnk">Closing ranks</a></div>
+    </div>
+    
 <iframe id="sections" src="{% url 'college_info:sections' section='eamcet' college_code=college.code %}" width="100%" text-align="center" height="10" marginheight="0" marginwidth="0" frameborder="0" style="width: 100%; display:block;">
     <!-- height to be set by javascript equal to device window height... -->
 </iframe>
