@@ -19,27 +19,6 @@
 
 
 
-    <style type='text/css' media='print'>
-            img.NoPrint {display:none;}
-            p.NonPrintable {display:none;}
-            .nonl {clear:none;}
-            .NP {display:none;}
-    </style>
-
-    <script type="text/javascript" language="javascript">
-        $(document).ready(function () {
-
-            $(document).bind("contextmenu", function (e) {
-                return false;
-            });
-            window.history.pushState(null, "", window.location.href);
-            window.addEventListener('popstate', function () {
-                window.history.pushState(null, "", window.location.href);
-
-            });
-        });
-    </script>
-
 <style>
     table{
         border-collapse:collapse;
@@ -60,6 +39,7 @@
 
 <body>
 
+    <h3 class="heading" id="heading">Placement analysis</h2>
 <div class="main">
             
 <style>
@@ -82,108 +62,45 @@
                    </td> -->
                    <!-- </tr>  -->
                    <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7">College Code :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.code}}</td>
-                    <td align="left" bgcolor="#F9F3D7">College Name :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.name}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Highest Salary :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.highest_salary}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Lowest Salary :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.lowest_salary}}</td>
                 </tr>
                 <tr valign="top">
-                    <td bgcolor="#F9F3D7">Co-Education :</td>
-                    <td bgcolor="#ffffff">&nbsp;{{college.coed}} </td>
-                    <td bgcolor="#F9F3D7">Minority Status :</td>
-                    <td bgcolor="#ffffff">&nbsp;{{college.minority}}</td>
+                    <td bgcolor="#F9F3D7">Salary mean :</td>
+                    <td bgcolor="#ffffff">&nbsp;{{college.salary_mean}} </td>
+                    <td bgcolor="#F9F3D7">Salary median :</td>
+                    <td bgcolor="#ffffff">&nbsp;{{college.salary_median}}</td>
                 </tr>
                 <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7"> Region :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.region}}</td>
-                    <td align="left" bgcolor="#F9F3D7">Aided :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.aided}}</td>
+                    <td bgcolor="#F9F3D7">Salary mode :</td>
+                    <td bgcolor="#ffffff">&nbsp;{{college.salary_mode}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Companies visited :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.companies_visited}}</td>
+                </tr>
+                <tr valign="top">
+                    <td align="left" bgcolor="#F9F3D7"> Total offers :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.total_offers}}</td>
+                    <td align="left" bgcolor="#F9F3D7">Placement percent :</td>
+                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.placement_percent}}</td>
                 </tr>
       
-                <tr>
-                    <td bgcolor="#F9F3D7">Private :</td>
-                    <td bgcolor="#ffffff">&nbsp;{{college.pvt}}</td>
-                    <td align="left" bgcolor="#F9F3D7">Phone No :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.phone}}</td>
-                </tr>
 
-		
-     
-                <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7" colspan="4">
-                        Address of the College :
-                            <table class="textd" align="center" bgcolor="white" border="1" bordercolor="#ffffff" bordercolorlight="#003366" width="50%">
-                                <tr>
-                                    <td>&nbsp;&nbsp;&nbsp;{{college.address}}</td>
-                                </tr>
-                            </table>
-                    <br />
-                    </td>
-                </tr>
-                <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7">Place of the College :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.place}}</td>
-                    <td align="left" bgcolor="#F9F3D7">Hostel Availability  :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.hostel}}</td>
-                </tr>
-                <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7">District in which located :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.district}}</td>
-                    <td align="left" bgcolor="#F9F3D7">Year of Establishment :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.year}}</td>
-                </tr>
-                <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7">Email ID :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.email}}</td>
-
-                    <td align="left" bgcolor="#F9F3D7">Affilited to :</td>
-                    <td align="left" bgcolor="#ffffff">&nbsp;{{college.affiliated}}</td>
-                </tr>
-                
-                <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7" colspan="2">
-                       For more details about the Institute, Visit Website :</td>
-                    <td align="left" bgcolor="#ffffff" colspan="2">&nbsp;
-                        <a href="{{college.website}}" target="_blank">{{college.website|slice:"8:"}}</a>
-                    </td>
-                </tr>
-
-
-                <!-- <tr valign="top">
-                    <td align="left" bgcolor="#ffffff" colspan="4" style="color:red;">
-				Note:   As per the Hon’ble High Court in Common interim order in IA No. 1 of 2022 in W.P.No.33610 of 2022 dated: 24-08-2022 permitted the petitioner institution to collect fee as mentioned in the order. The candidates and parent are hereby informed to make a note before exercising options.
-		    </td>
-                </tr> -->
-
-
-
-                <tr valign="top">
-                    <td align="left" bgcolor="#F9F3D7" colspan="4">
-                       Courses Offered: 
-                       <br />   
-                        <br /> 
-                    <table class='textd' align='center' bgcolor='white' border='1' bordercolor='#ffffff' bordercolorlight='#003366' width='90%'><tr class='tdc'><!--<td>S.No</td>--><td>Branch Code</td><td>Branch Name</td><td>Intake <br /><font size='1'>(Total)</td><td align='center'>Fee</td></tr>
-                        
-                        {% for branch in college.branches %}
-                            <tr>
-                                <!-- <td> &nbsp; &nbsp; 1</td> -->
-                                <td> &nbsp; &nbsp; {{branch.code}}</td>
-                                <td> &nbsp; &nbsp; {{branch.name}}</td>
-                                <td> &nbsp; &nbsp; {{branch.intake}}</td>
-                                <td> &nbsp; &nbsp; {{branch.fees}} &nbsp; </td>
-                            </tr>
-
-                            {% empty %}
-                            <tr>No branches.</tr>
-                        {% endfor %}
-                    </table>
-                    <br />
-                    </td>
-                </tr>
 	            <tr align="center">
 	                <td bgcolor="#F9F3D7" colspan="4" class="pt8" align="center">
-	                OU = Osmania University,  AU = Andhra University,  SVU = Sri Venkateshwara University,  SW = State-wide  <br /> None = Not Available,  RL = Regional,  COED => (both = boys and girls)
-	                GOV = Government, PVT = Private, UNI = University</td>
+                    {% if placement_analysis_available %}
+	                    This placement data is of <b>Year: {{college.placement_data_year}}</b>, taken from the college website.<br> The latest data available on the website as of mid 2022 was taken. 
+                    {% else %}
+                        Some or all of the placement data
+
+                        {% if college.placement_data_year %}
+                            of <b>Year: {{college.placement_data_year}}</b>
+                        {% endif %}
+
+                        is not available for this college.<br>Because either the data was not available on the website, or the college was not present in <sup>#</sup>Top 50.
+                    {% endif %}
+                    </td>
 	            </tr>
             </table>
             <br />
@@ -192,6 +109,39 @@
         <br><br>
 
 
-   
+
+
+        
+    <!-- placement details  -->
+
+{% if placement_details_available %}
+    <h3 class="heading" id="heading">Placement details</h2>
+    <link rel="stylesheet" href="{% static 'home\layout.css' %}">
+    <script type="text/javascript" src="{% static 'home\layout.js' %}"></script>
+
+        <div class="container">
+	
+            <div class="table">
+                <div class="table-header">
+                    <div class="header__item"><a id="Slno" class="not_sort_keys keep" href="#">Sl.NO</a></div>
+                    <div class="header__item"><a id="Company" class="not_sort_keys" href="#">Company</a></div>
+                    <div class="header__item"><a id="Salary" class="sort_keys" href="#">Salary<sub>(in LPA)</sub></a></div>
+                    <div class="header__item"><a id="Offers" class="sort_keys" href="#">Offers</a></div>
+                
+                </div>
+                <div class="table-content">
+                    {% for row in placement_data %} 
+                        <div class="table-row">
+                            <div class="table-data" id="tableSlno">{{row.0}}</div>
+                            <div class="table-data" id="tableCompany">{{row.1.0}}</div>
+                            <div class="table-data" id="tableSalary">{{row.1.1}}</div>
+                            <div class="table-data" id="tableOffers">{{row.1.2}}</div>
+                        </div>
+                    {% endfor %}
+                </div>	
+            </div>
+        </div>
+{% endif %}
+
 </body>
 </html>

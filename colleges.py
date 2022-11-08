@@ -8,7 +8,7 @@ from pathlib import Path
 # Srikar
 # monish
 # arshad
-#! all backslashes in file paths are replaced by forward slash, for heroku..
+# all backslashes in file paths are replaced by forward slash, for heroku... but it works in windows also.
 
 # getting the base path..
 # _pp = str(Path().resolve()).split("\\")

@@ -41,19 +41,6 @@
             .NP {display:none;}
     </style>
 
-    <script type="text/javascript" language="javascript">
-        $(document).ready(function () {
-
-            $(document).bind("contextmenu", function (e) {
-                return false;
-            });
-            window.history.pushState(null, "", window.location.href);
-            window.addEventListener('popstate', function () {
-                window.history.pushState(null, "", window.location.href);
-
-            });
-        });
-    </script>
 
     <!-- <script type="text/javascript" language="javascript">
            var ua = window.navigator.userAgent;
