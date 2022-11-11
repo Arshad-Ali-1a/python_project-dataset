@@ -15,3 +15,11 @@ class FormStudent(forms.Form):
     form_sorting_key=forms.CharField(required=True,label="Sorting Key",widget=forms.RadioSelect(choices=[('placement_percent','placement_percent'), ('highest_salary','highest_salary'), 
     ('lowest_salary','lowest_salary'), ('salary_mode','salary_mode'), ('salary_mean','salary_mean'), ('salary_median','salary_median'), ('total_offers','total_offers'), ('companies_visited','companies_visited'), ('year','year'), 
             ('total_intake','total_intake'), ('fees','fees'), ('probability','probability'), ('closing_rank','closing_rank'), ('distance','distance')]))
+
+    form_visible_fields=forms.CharField(required=True ,label="Visible fields",widget=forms.CheckboxSelectMultiple(choices=[("name","College name"),("closing_rank","Closing rank"),
+    ("total_intake","Total intake"),("highest_salary","Highest offer"),("lowest_salary","Lowest offer"),("salary_mean","Offer mean"),
+    ("salary_median","Offer median"),("salary_mode","Offer mode"),("total_offers","Total offers"),("companies_visited","Companies visited"),
+    ("placement_percent","Placement percentage"),("placement_data_year","Placement data year"),
+    
+    ("district","District"),("phone","Phone number"),("address","Address"),]))
+    
