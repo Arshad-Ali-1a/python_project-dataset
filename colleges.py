@@ -2,6 +2,7 @@ from json import load, dump
 from requests import get
 from matplotlib import pyplot
 from pathlib import Path
+from numpy import inf
 
 # TODO add an encryption and decryption method to key.
 # TODO add a function to display all the branches sorted properly in sorted colleges.
@@ -444,6 +445,12 @@ class College():
         d = get(link).json()
 
         for i, college in enumerate(cls.instances.values()):
+            if(d["resourceSets"][0]["resources"][0]["results"][i]["travelDistance"]==-1):
+                college._distance = inf
+                college._duration = inf
+                
+                continue
+
             college._distance = d["resourceSets"][0]["resources"][0]["results"][i]["travelDistance"]
             college._duration = d["resourceSets"][0]["resources"][0]["results"][i]["travelDuration"]
 

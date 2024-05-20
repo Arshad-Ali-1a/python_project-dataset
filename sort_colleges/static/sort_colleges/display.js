@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded',()=>{
-	console.log("hoihihihihi")
+	// console.log("hoihihihihi")
 	var table_rows= document.querySelectorAll(".table-row")
 	table_rows= Array.from(table_rows)
 
